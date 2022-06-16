@@ -305,6 +305,10 @@ footer .inner1400 {
 /* 태블릿 */
 @media all and (max-width: 1360px)
 {
+    body {
+        overflow-x: hidden;
+    }
+
     .inner1400 {
         width: 100%;
     }
