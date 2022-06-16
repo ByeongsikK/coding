@@ -30,7 +30,7 @@ header {
 .logo {
     width: 338px;
     height: 73px;
-    background: url(/logo.png) no-repeat;
+    background: url(./logo.png) no-repeat;
     background-size: cover;
     margin: 0 757px 0 0;
 }
@@ -281,25 +281,25 @@ table {
 }
 
 .dbArrow_left {
-    background: url(/double_left.svg) no-repeat;
+    background: url(./double_left.svg) no-repeat;
     width: 25px;
     height: 25px;
 }
 
 .Arrow_left {
-    background: url(/left.svg) no-repeat;
+    background: url(./left.svg) no-repeat;
     width: 25px;
     height: 25px;
 }
 
 .Arrow_right {
-    background: url(/right.svg) no-repeat;
+    background: url(./right.svg) no-repeat;
     width: 25px;
     height: 25px;
 }
 
 .dbArrow_right {
-    background: url(/double_right.svg) no-repeat;
+    background: url(./double_right.svg) no-repeat;
     width: 25px;
     height: 25px;
 }
@@ -379,7 +379,7 @@ footer .inner1400 {
 .footer_logo {
     width: 250px;
     height: 55px;
-    background: url(/logo.png) no-repeat;
+    background: url(./logo.png) no-repeat;
     background-size: cover;
     margin: 0 50px 0 0;
 }
