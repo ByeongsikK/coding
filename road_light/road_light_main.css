@@ -1,0 +1,488 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid #000; */
+}
+
+
+h1{
+    font-size: 40px;
+    color: #fff;
+    margin: 0 0 50px 0;
+}
+
+h2 {
+    font-size: 35px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 22px;
+    color: #fff;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.inner1400 {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    background: linear-gradient(90deg, #006299 23.41%, rgba(0, 103, 162, 0.978191) 35.86%, rgba(0, 120, 187, 0.929511) 50.45%, rgba(31, 134, 191, 0.786458) 68.29%, rgba(0, 151, 193, 0.833278) 79.73%, rgba(0, 161, 193, 0.851639) 84.22%, rgba(0, 163, 185, 0.87) 88.71%);
+}
+
+header .inner1400 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+header .top_logo {
+    width: 338px;
+    height: 73px;
+    background: url(/logo.png) no-repeat;
+    background-size: cover;
+}
+/* header */
+
+/* sec1 */
+.sec1 {
+    /* height: calc(100vh - 173px); */
+    height: 930px;
+    background: linear-gradient(90deg, #006299 23.41%, rgba(0, 103, 162, 0.978191) 35.86%, rgba(0, 120, 187, 0.929511) 50.45%, rgba(31, 134, 191, 0.786458) 68.29%, rgba(0, 151, 193, 0.833278) 79.73%, rgba(0, 161, 193, 0.851639) 84.22%, rgba(0, 163, 185, 0.87) 88.71%);
+}
+.sec1 .inner1400 {
+    text-align: center;
+    align-items: center;
+    background: url(/intro_bg.png) top right no-repeat;
+}
+
+.about_roadlight h2 {
+    padding: 50px 0 15px 0;
+}
+
+.about_roadlight p {
+    font-size: 25px;
+    color: #fff;
+    padding: 0 0 50px 0;
+}
+
+.system_cycle h2{
+    padding: 0 0 20px 0;
+}
+
+.card_list {
+    display: flex;
+    padding: 0 20px;
+}
+
+.card {
+    padding: 0 10px;
+}
+
+.card p {
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0 0 0;
+}
+
+.icon_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon.n1 {
+    width: 80px;
+    height: 80px;
+    background: url(/black-24dp/construction_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background-size: cover;
+}
+
+.icon.n2 {
+    width: 80px;
+    height: 80px;
+    background: url(/connect_without_contact_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background-size: cover;
+}
+
+.icon.n3 {
+    width: 80px;
+    height: 80px;
+    background: url(/build_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background-size: cover;
+}
+
+.icon.n4 {
+    width: 80px;
+    height: 80px;
+    background: url(/event_note_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background-size: cover;
+}
+
+.icon.n5 {
+    width: 80px;
+    height: 80px;
+    background: url(/how_to_reg_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background-size: cover;
+}
+
+.icon.n6 {
+    width: 80px;
+    height: 80px;
+    background: url(/done_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background-size: cover;
+}
+
+
+.bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.left_bt_box {
+    margin: 0 192px 0 0;
+}
+
+.left_bt {
+    width: 243px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 12px 0;
+    background-color: #fff;
+}
+
+.left_bt:hover {
+    width: 243px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 12px 0 #000;
+    background-color: #FF9900;
+    color: #fff;
+}
+
+.singo {
+    width: 71px;
+    height: 64px;
+    background: url(/black-24dp/construction_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background-size: cover;
+}
+
+.right_bt { 
+    width: 243px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 12px 0;
+    background-color: #fff;
+}
+
+.right_bt:hover {
+    width: 243px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 12px 0 #000;
+    background-color: #FF9900;
+    color: #fff;
+}
+
+.cheoli {
+    width: 71px;
+    height: 64px;
+    background: url(/engineering_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background-size: cover;
+}
+
+.bt a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* sec1 */
+
+
+/* footer */
+footer {
+    background-color: #484848;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .inner1400 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo {
+    width: 250px;
+    height: 55px;
+    background: url(/logo.png) no-repeat;
+    background-size: cover;
+    margin: 0 50px 0 0;
+}
+
+.info_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.info_text p {
+    font-size: 12px;
+}
+
+.left_box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 355px 0 0;
+}
+
+.left_box1 {
+    display: flex;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+.left_box1 p{
+    position: relative;
+}
+
+.left_box1 p:nth-child(1) {
+    margin: 0 10px 0 0;
+}
+
+.left_box1 p::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background: #fff;
+    top: 5px;
+    right: -5px;
+}
+
+.left_box1 p:last-child::after {
+    display: none;
+}
+
+.footer_select {
+    width: 150px;
+    height: 30px;
+}
+/* footer */
+
+
+
+/* 태블릿 */
+@media all and (max-width: 1360px)
+{
+    .inner1400 {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .about_roadlight p {
+        font-size: 15px;
+    }
+
+    .card {
+        padding: 0 5px;
+    }
+
+    .card p {
+        font-size: 11px;
+    }
+
+    .icon_box .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .left_bt {
+        width: 204px;
+        height: 139px;
+    }
+
+    .left_bt:hover {
+        width: 204px;
+        height: 139px;
+    }
+
+    .right_bt {
+        width: 204px;
+        height: 139px;
+    }
+
+    .right_bt:hover {
+        width: 204px;
+        height: 139px;
+    }
+
+    .left_bt_box {
+        margin: 0 109px 0 0;
+    }
+
+    .singo {
+        width: 51px;
+        height: 44px;
+    }
+
+    .cheoli {
+        width: 51px;
+        height: 44px;
+    }
+
+    .bt {
+        padding: 100px 0;
+    }
+
+    .footer_logo {
+        margin: 0 20px 0 0;
+    }
+
+    .info_text p {
+        font-size: 10px;
+    }
+
+    .left_box {
+        margin: 0 18px 0 0;
+    }
+
+    .left_box1 p::after {
+        height: 10px;
+        top: 3px;
+        right: -6px;
+    }
+}
+/* 태블릿 */
+
+
+/* 모바일 */
+@media all and (max-width: 600px) 
+{
+    header .top_logo {
+        width: 192px;
+        height: 43px;
+        margin: 0 0 0 0;
+    }
+
+    .sec1 {
+        height: 800px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .about_roadlight p {
+        font-size: 15px;
+    }
+
+    .card p {
+        display: none;
+    }
+
+    .left_bt {
+        width: 174px;
+        height: 109px;
+    }
+
+    .left_bt:hover {
+        width: 174px;
+        height: 109px;
+    }
+
+    .right_bt {
+        width: 174px;
+        height: 109px;
+    }
+
+    .right_bt:hover {
+        width: 174px;
+        height: 109px;
+    }
+
+    .left_bt_box {
+        margin: 0 50px 0 0;
+    }
+
+    .singo {
+        width: 41px;
+        height: 34px;
+    }
+
+    .cheoli {
+        width: 41px;
+        height: 34px;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    footer .inner1400 {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .footer_logo {
+        margin: 0 0 20px 20px;
+    }
+
+    .info_text {
+        margin: 0 0 0 30px;
+    }
+}

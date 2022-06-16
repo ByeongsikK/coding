@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>청주시 도로조명관리시스템</title>
+    <link rel="stylesheet" href="/road_light_cheoli.css">
+</head>
+
+<body>
+    <header>
+        <div class="inner1400">
+            <div class="top">
+                <a href="http://127.0.0.1:5500/road_light_main.html"><div class="logo"></div></a>
+                <div class="menu">
+                    <a href="http://127.0.0.1:5500/road_light_singo.html">
+                        <strong>고장신고</strong>
+                    </a>
+                    <a href="http://127.0.0.1:5500/road_light_cheoli.html">
+                        <strong>처리현황</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="sec1">
+        <div class="inner1400">
+            <h1>처리현황</h1>
+            <div class="content_box">
+                <div class="search">
+                    <h2>-검색조건-</h2>
+                    <div class="search_input">
+                        <div class="select_box">
+                            <select class="select n1">
+                                <option>접수종류</option>
+                                <option>등</option>
+                                <option>분전함</option>
+                            </select>
+                            <select class="select n2">
+                                <option>등종류</option>
+                                <option>가로등</option>
+                                <option>보안등</option>
+                                <option>공원등</option>
+                                <option>안심등</option>
+                                <option>신호등</option>
+                            </select>
+                            <select class="select n3">
+                                <option>신고인,번호</option>
+                                <option>신고인 성명</option>
+                                <option>신고인 연락처</option>
+                                <option>접수번호</option>
+                                <option>표찰번호</option>
+                            </select>
+                        </div>
+                        <div class="input_box">
+                            <input type="text">
+                        </div>
+                        <div class="date">
+                            <p>신고일</p>
+                            <input type="date">
+                            ~
+                            <input type="date">
+                        </div>
+                        <div class="bt">
+                            <input type="submit" value="검색">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sec2">
+        <div class="inner1400">
+            <div class="list">
+                <table>
+                    <tr>
+                        <th>순번</th>
+                        <th>접수종류</th>
+                        <th>등종류</th>
+                        <th>접수번호</th>
+                        <th>분전함번호</th>
+                        <th>표찰번호</th>
+                        <th>설치주소</th>
+                        <th>신고인</th>
+                        <th>신고일자</th>
+                        <th>처리현황</th>
+                    </tr>
+                    <tr>
+                        <td>9663</td>
+                        <td>등</td>
+                        <td>보안등</td>
+                        <td>2205289</td>
+                        <td>-</td>
+                        <td>270-1030</td>
+                        <td>청주시 흥덕구 강내면 저산리 101-6</td>
+                        <td>민원인</td>
+                        <td>2022.05.18</td>
+                        <td>
+                            <a href="#">
+                                <p class="lamp_red">신고접수</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9662</td>
+                        <td>등</td>
+                        <td>보안등</td>
+                        <td>2205288</td>
+                        <td>-</td>
+                        <td>219-4504</td>
+                        <td>청주시 가덕면 시동리 167-0</td>
+                        <td>민원인</td>
+                        <td>2022.05.18</td>
+                        <td>
+                            <a href="#"><p class="lamp_red">신고접수</p></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9661</td>
+                        <td>등</td>
+                        <td>가로등</td>
+                        <td>2205287</td>
+                        <td>-</td>
+                        <td>239-2106</td>
+                        <td>청주시 서원구 성화동 1040-0</td>
+                        <td>민원인</td>
+                        <td>2022.05.18</td>
+                        <td>
+                            <a href="#"><p class="lamp_orange">수리중</p></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9660</td>
+                        <td>등</td>
+                        <td>가로등</td>
+                        <td>2205286</td>
+                        <td>-</td>
+                        <td>139-2107</td>
+                        <td>청주시 서원구 성화동 1040-0</td>
+                        <td>민원인</td>
+                        <td>2022.05.18</td>
+                        <td>
+                            <a href="#"><p class="lamp_orange">수리중</p></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9659</td>
+                        <td>등</td>
+                        <td>가로등</td>
+                        <td>2205285</td>
+                        <td>-</td>
+                        <td>139-2105</td>
+                        <td>청주시 서원구 성화동 1040-0</td>
+                        <td>민원인</td>
+                        <td>2022.05.18</td>
+                        <td>
+                            <a href="#"><p class="lamp_orange">수리중</p></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9658</td>
+                        <td>등</td>
+                        <td>가로등</td>
+                        <td>2205284</td>
+                        <td>-</td>
+                        <td>139-2104</td>
+                        <td>청주시 서원구 성화동 1040-0</td>
+                        <td>민원인</td>
+                        <td>2022.05.18</td>
+                        <td>
+                            <a href="#"><p class="lamp_green">수리완료</p></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9657</td>
+                        <td>등</td>
+                        <td>공원등</td>
+                        <td>2205283</td>
+                        <td>-</td>
+                        <td>339-1405</td>
+                        <td>청주시 서원구 성화동 1056-0</td>
+                        <td>민원인</td>
+                        <td>2022.05.18</td>
+                        <td>
+                            <a href="#"><p class="lamp_green">수리완료</p></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9656</td>
+                        <td>등</td>
+                        <td>보안등</td>
+                        <td>2205282</td>
+                        <td>-</td>
+                        <td>219-4510</td>
+                        <td>청주시 상당구 가덕면 시동리 116-3</td>
+                        <td>민원인</td>
+                        <td>2022.05.18</td>
+                        <td>
+                            <a href="#"><p class="lamp_green">수리완료</p></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9655</td>
+                        <td>등</td>
+                        <td>보안등</td>
+                        <td>2205281</td>
+                        <td>-</td>
+                        <td>256-0082</td>
+                        <td>청주시 흥덕구 봉명동 1238-0</td>
+                        <td>민원인</td>
+                        <td>2022.05.18</td>
+                        <td>
+                            <a href="#"><p class="lamp_green">수리완료</p></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="page">
+                <div class="before_box">
+                    <a href="#">
+                    <div class="dbArrow_left"></div>
+                    </a>
+                    <a href="#">
+                        <div class="Arrow_left"></div>
+                        </a>
+                </div>
+                <div class="page_number">
+                    <a href="#" class="pgnum">1</a>
+                    <a href="#" class="pgnum">2</a>
+                    <a href="#" class="pgnum">3</a>
+                    <a href="#" class="pgnum">4</a>
+                    <a href="#" class="pgnum">5</a>
+                    <a href="#" class="pgnum">6</a>
+                    <a href="#" class="pgnum">7</a>
+                    <a href="#" class="pgnum">8</a>
+                    <a href="#" class="pgnum">9</a>
+                    <a href="#" class="pgnum">10</a>
+                </div>
+                <div class="after_box">
+                    <a href="#">
+                        <div class="Arrow_right"></div>
+                    </a>
+                    <a href="#">
+                        <div class="dbArrow_right"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="inner1400">
+            <a href="#">
+                <div class="footer_logo"></div>
+            </a>
+            <div class="info_text">
+                <div class="left_box">
+                    <div class="left_box1">
+                        <p>개인정보취급방침</p>
+                        <p>사이트맵</p>
+                    </div>
+                    <div class="left_box2">
+                        <p>TM & Copyright by Roadlighting System. All Right Reverved</p>
+                    </div>
+                </div>
+                <select class= "footer_select" onchange="if(this.value)window.open(this.value);">
+                    <option value="">관련기관 홈페이지</option>
+                    <option value="https://www.cheongju.go.kr/www/index.do">청주시청</option>
+                    <option value="https://www.billkorea.co.kr/ebill/index.ac">빌코리아</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(`.pgnum`).click(function () {
+                $(this).addClass(`on`);
+            });
+        });
+    </script>
+</body>
+
+</html>

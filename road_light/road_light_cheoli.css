@@ -1,0 +1,614 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid #000; */
+}
+
+
+.inner1400 {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: linear-gradient(90deg, #006299 23.41%, rgba(0, 103, 162, 0.978191) 35.86%, rgba(0, 120, 187, 0.929511) 50.45%, rgba(31, 134, 191, 0.786458) 68.29%, rgba(0, 151, 193, 0.833278) 79.73%, rgba(0, 161, 193, 0.851639) 84.22%, rgba(0, 163, 185, 0.87) 88.71%);
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 338px;
+    height: 73px;
+    background: url(/logo.png) no-repeat;
+    background-size: cover;
+    margin: 0 757px 0 0;
+}
+
+.menu {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 112px;
+    height: 49px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.menu a:nth-child(1) {
+    margin: 0 50px 0 0;
+}
+
+.menu a:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 112px;
+    height: 49px;
+    text-decoration: none;
+    color: #6D6D6D;
+    font-size: 25px;
+    background: #fff;
+    border-radius: 5px;
+}
+/* header */
+
+/* sec1 */
+.sec1 h1 {
+    height: 80px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 0 20px 0; */
+}
+
+.content_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 1021px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+    padding: 0 20px;
+    background: #F4F4F4;
+}
+
+.search_input {
+    display: flex;
+}
+
+.date {
+    display: flex;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.sec1 select {
+    width: 80px;
+    height: 40px;
+    margin: 0 10px 0 0;
+    border: 1px solid #D2D2D2;
+    font-size: 12px;
+}
+
+.sec1 select:nth-child(3) {
+    width: 100px;
+    height: 40px;
+    margin: 0 10px 0 0;
+    border: 1px solid #D2D2D2;
+}
+
+input[type="text"] {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #D2D2D2;
+    margin: 0 10px 0 0;
+    padding: 0 5px;
+}
+
+input[type="date"] {
+    width: 90px;
+    height: 25px;
+    border: 1px solid #D2D2D2;
+    margin: 5px 15px;
+    font-size: 12px;
+}
+/* 당일 날짜 출력 할 수 있게 추후 스크립트 추가 */
+
+.date {
+    border: 1px solid #D2D2D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date p {
+    font-size: 12px;
+    margin: 0 15px;
+}
+
+input[type="submit"] {
+    width: 80px;
+    height: 40px;
+    background: #004FA8;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #D2D2D2;
+    margin: 0 0 0 10px;
+}
+
+input[type="submit"]:hover {
+    width: 80px;
+    height: 40px;
+    background: #0057bb;
+    color: #D2D2D2;
+    font-size: 15px;
+    border: 1px solid #D2D2D2;
+    margin: 0 0 0 10px;
+}
+/* sec1 */
+
+
+/* sec2 */
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* th */
+th:nth-child(1) {
+    width: 60px;
+}
+
+th:nth-child(2), th:nth-child(3) {
+    width: 64px;
+}
+
+th:nth-child(4), th:nth-child(5), th:nth-child(6), th:nth-child(8), th:nth-child(9), th:nth-child(10) {
+    width: 100px;
+}
+
+th:nth-child(7) {
+    width: 260px;
+}
+
+th {
+    text-align: center;
+    font-size: 14px;
+    height: 26px;
+    border-top: 1px solid #D2D2D2;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+td {
+    text-align: center;
+    font-size: 13px;
+    height: 100%;
+}
+
+td:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+}
+/* td */
+
+tr {
+    height: 39px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+
+/* 임시표시용 */
+.lamp_red {
+    font-size: 11px;
+    text-align: center;
+    line-height: 22px;
+    width: 57px;
+    height: 22px;
+    background: #F30000;
+    border-radius: 5px;
+}
+
+.lamp_orange {
+    font-size: 11px;
+    text-align: center;
+    line-height: 22px;
+    width: 57px;
+    height: 22px;
+    background: #FF9900;
+    border-radius: 5px;
+}
+
+.lamp_green {
+    font-size: 11px;
+    text-align: center;
+    line-height: 22px;
+    width: 57px;
+    height: 22px;
+    background: #00C314;
+    border-radius: 5px;
+}
+/* 임시표시용 */
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.page {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+}
+
+.dbArrow_left {
+    background: url(/double_left.svg) no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.Arrow_left {
+    background: url(/left.svg) no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.Arrow_right {
+    background: url(/right.svg) no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.dbArrow_right {
+    background: url(/double_right.svg) no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.before_box {
+    display: flex;
+}
+
+.after_box {
+    display: flex;
+}
+
+.sec2 {
+    /* height: calc(100vh - 500px); */
+    height: 600px;
+}
+
+.page_number {
+    display: flex;
+}
+
+.pgnum {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+}
+.pgnum:hover {
+    font-size: 15px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.pgnum.on {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-style: bold;
+    background: #004FA8;
+    color: #fff;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.before_box a:first-child, .after_box a:first-child {
+    margin: 0 5px 0 0;
+}
+/* sec2 */
+
+
+
+/* footer */
+footer {
+    background-color: #484848;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .inner1400 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo {
+    width: 250px;
+    height: 55px;
+    background: url(/logo.png) no-repeat;
+    background-size: cover;
+    margin: 0 50px 0 0;
+}
+
+.info_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.info_text p {
+    font-size: 12px;
+}
+
+.left_box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 355px 0 0;
+}
+
+.left_box1 {
+    display: flex;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+.left_box1 p{
+    position: relative;
+}
+
+.left_box1 p:nth-child(1) {
+    margin: 0 10px 0 0;
+}
+
+.left_box1 p::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background: #fff;
+    top: 5px;
+    right: -5px;
+}
+
+.left_box1 p:last-child::after {
+    display: none;
+}
+
+.footer_select {
+    width: 150px;
+    height: 30px;
+}
+/* footer */
+
+
+
+/* 태블릿 */
+@media all and (max-width: 1360px)
+{
+    .inner1400 {
+        width: 100%;
+    }
+
+    header .top {
+        display: flex;
+        justify-content: space-between;
+        }
+    
+        .logo {
+            width: 288px;
+            height: 63px;
+            margin: 0 0 0 0;
+        }
+        
+        .menu a {
+            width: 102px;
+            height: 39px;
+            font-size: 20px;
+        }
+
+        .menu a:hover {
+            width: 102px;
+            height: 39px;
+            font-size: 20px;
+        }
+    
+        .menu {
+            margin: 0 50px 0 0;
+        }
+    
+        .sec1 h1 {
+            font-size: 25px;
+        }
+
+        .search {
+            width: 100%;
+            height: 300px;
+            margin: 15px 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search_input {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sec1 select {
+            width: 100px;
+            margin: 0 5px 15px 0;
+        }
+
+        .sec1 select:nth-child(3) {
+            margin: 0 5px 15px 0;
+        }
+
+        .input_box {
+            width: 346px;
+            order: 1;
+            margin: 0 0px 15px 0;
+        }
+
+        input[type="text"] {
+            width: 346px;
+        }
+
+        .date {
+            width: 346px;
+            margin: 0 0px 15px 0;
+        }
+
+        .bt {
+            order: 3;
+        }
+
+        input[type="submit"] {
+            width: 130px;
+            height: 40px;
+        }
+        
+        input[type="submit"]:hover {
+            width: 130px;
+            height: 40px;
+        }
+
+        th {
+            font-size: 12px;
+        }
+
+        td {
+            font-size: 12px;         
+        }
+
+        .sec2 {
+            height: 550px;
+        }
+
+        .footer_logo {
+            margin: 0 20px 0 0;
+        }
+    
+        .info_text p {
+            font-size: 10px;
+        }
+    
+        .left_box {
+            margin: 0 18px 0 0;
+        }
+    
+        .left_box1 p::after {
+            height: 10px;
+            top: 3px;
+            right: -6px;
+        }
+}
+
+
+/* 모바일 */
+@media all and (max-width: 600px) 
+{
+
+    .logo {
+        width: 192px;
+        height: 43px;
+        margin: 0 50px 0 0;
+    }
+
+    .menu a {
+        width: 102px;
+        height: 39px;
+        font-size: 18px;
+    }
+
+    .menu {
+        margin: 0 10px 0 0;
+    }
+
+    .menu a:hover {
+        width: 102px;
+        height: 39px;
+        font-size: 18px;
+    }
+
+    .menu a:nth-child(1) {
+        margin: 0 20px 0 0;
+    }
+
+    .sec1 h1 {
+        font-size: 20px;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    footer .inner1400 {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .footer_logo {
+        margin: 0 0 20px 20px;
+    }
+
+    .info_text {
+        margin: 0 0 0 30px;
+    }
+}

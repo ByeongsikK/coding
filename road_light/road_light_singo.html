@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>청주시 도로조명관리시스템</title>
+    <link rel="stylesheet" href="/road_light_singo.css">
+</head>
+
+<body>
+    <header>
+        <div class="inner1400">
+            <div class="top">
+                <a href="http://127.0.0.1:5500/road_light_main.html">
+                    <div class="logo"></div>
+                </a>
+                <div class="menu">
+                    <a href="http://127.0.0.1:5500/road_light_singo.html">
+                        <strong>고장신고</strong>
+                    </a>
+                    <a href="http://127.0.0.1:5500/road_light_cheoli.html">
+                        <strong>처리현황</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="sec1">
+        <div class="inner1400">
+            <h1>고장신고</h1>
+            <div class="content_box">
+
+                <div class="left">
+                    <div class="map"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1600.8241955679448!2d127.45665955830307!3d36.63484929499573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565288f69705ec5%3A0xb6a5118e9b863d8d!2z7J207KeA65SU7J6Q7J247Lu07ZOo7YSw7ZWZ7JuQ!5e0!3m2!1sko!2skr!4v1653536449923!5m2!1sko!2skr"
+                            width="1056" height="686" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                </div>
+
+
+                <div class="right" style="overflow:auto;
+                width: 342px; height: calc(100vh - 280px);">
+                    <div class="info_write">
+                        <div class="pyochal_search">
+                            <div class="title">
+                                <h2>표찰번호 검색</h2>
+                            </div>
+                            <div class="search_box">
+                                <div class="search">
+                                    <select>
+                                        <option>등</option>
+                                        <option>분전함</option>
+                                    </select>
+                                    <input type="text">
+                                </div>
+                                <div class="bt">
+                                    <p><input type="submit" value="검색"></p>
+                                    <p><input type="reset" value="취소"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="photo_check">
+                            <div class="title">
+                                <h2>등 사진 확인</h2>
+                            </div>
+                            <div class="photo_box">
+                                <div class="photo1"></div>
+                                <div class="photo2"></div>
+                            </div>
+                        </div>
+                        <div class="singo_info">
+                            <div class="title">
+                                <h2>신고내용</h2>
+                            </div>
+                            <table>
+                                <tr>
+                                    <th>등종류</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>표찰번호</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>설치주소</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>*개인정보<br>
+                                        수집 및 <br>
+                                        이용동의</th>
+                                    <td>
+                                        <div style="overflow:auto; width:220px; height:100px;" class="persnal_info">
+                                            <strong>개인정보의 처리 목적</strong><br>
+                                            [가로(보안)등 고장신고센터 홈페이지]은 개인정보를 다음의 목적을 위해 처리합니다. 처리한 개인정보는 다음의 목적이외의 용도로는
+                                            사용되지
+                                            않으며 이용 목적이 변경될 시에는 사전동의를 구할 예정입니다.<br>
+                                            가.서비스 제공<br>
+                                            생활불편민원(가로등 미점등 및 파손)등을 처리하기위한 목적으로 개인정보를 처리 합니다.<br>
+                                            나.민원처리<br>
+                                            가로(보안)등 고장신고, 위치 및 상황파악, 처리결과를 통보 등 생활불편과 관련된 민원처리를 목적으로 개인정보를
+                                            처리합니다.<br>
+                                            <strong>처리하는 개인정보의 항목</strong><br>
+                                            [가로(보안)등 고장신고센터 홈페이지]에서 서비스 제공 및 민원 처리를 위해 처리하는 개인정보 항목 및 수집 방법은 다음과
+                                            같습니다.<br>
+                                            가. 개인정보 파일명 : 민원요청자 정보<br>
+                                            ◦ 개인정보 필수 수집항목 : 성명, 연락처(일반전화 또는 핸드폰번호 중 택1,단, 휴대폰문자메시지 통보를 원하는 고객은
+                                            핸드폰번호
+                                            필수입력)<br>
+                                            ◦ 수집방법 : 홈페이지<br>
+                                            <strong>개인정보의 처리 및 보유 기간</strong><br>
+                                            이용자 개인정보는 원칙적으로 개인정보의 처리목적이 달성되면 지체없이 파기합니다. 단, 다음의 정보에 대하여는 아래의 사유로 명시한
+                                            기간
+                                            동안 보존합니다.<br>
+                                            가. 개인정보 파일명 : 민원요청자 정보<br>
+                                            ◦ 개인정보 항목 : 성명, 전화번호<br>
+                                            ◦ 보유근거 : 민원요청, 민원요청위치 파악, 진행상황 확인, 처리결과 통보<br>
+                                            ◦ 보유기간 : 3년
+                                        </div>
+                                        <br>
+                                        <input type="checkbox"> 동의합니다.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>신고자</th>
+                                    <td>
+                                        <input type="text" maxlength="20" readonly value="민원인">
+                                        <p>실명 기재불가.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>*신고자<br>연락처</th>
+                                    <td>
+                                        <div class="number">
+                                            <div class="mobilebox">
+                                                휴 대 폰:
+                                                <select class="mobile n1">
+                                                    <option>010</option>
+                                                    <option>011</option>
+                                                    <option>016</option>
+                                                    <option>017</option>
+                                                    <option>018</option>
+                                                    <option>019</option>
+                                                </select>
+                                                -
+                                                <input type="tel" maxlength="4" class="mobile n2">
+                                                -
+                                                <input type="tel" maxlength="4" class="mobile n3">
+                                            </div>
+                                            <br>
+                                            <div class="telbox">
+                                                일반전화:
+                                                <select class="tel n1">
+                                                    <option>02</option>
+                                                    <option>031</option>
+                                                    <option>032</option>
+                                                    <option>033</option>
+                                                    <option>041</option>
+                                                    <option>042</option>
+                                                    <option>043</option>
+                                                    <option>051</option>
+                                                    <option>052</option>
+                                                    <option>053</option>
+                                                    <option>054</option>
+                                                    <option>055</option>
+                                                    <option>061</option>
+                                                    <option>062</option>
+                                                    <option>063</option>
+                                                    <option>064</option>
+                                                    <option>0502</option>
+                                                    <option>0505</option>
+                                                    <option>070</option>
+                                                </select>
+                                                -
+                                                <input type="tel" maxlength="4" class="tel n2">
+                                                -
+                                                <input type="tel" maxlength="4" class="tel n3">
+                                            </div>
+                                        </div>
+
+                                        <p>연락처는 한개는 필수로 입력해주세요.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>*고장선택</th>
+                                    <td>
+                                        <select>
+                                            <option>
+                                                미점등 고장
+                                            </option>
+                                            <option>
+                                                점소등시간 조정
+                                            </option>
+                                            <option>
+                                                깜박임
+                                            </option>
+                                            <option>
+                                                등방향 변경
+                                            </option>
+                                            <option>
+                                                위치변경(이설)
+                                            </option>
+                                            <option>
+                                                밝기조정
+                                            </option>
+                                            <option>
+                                                농작물 피해
+                                            </option>
+                                            <option>
+                                                철거요청
+                                            </option>
+                                            <option>
+                                                신설
+                                            </option>
+                                            <option>
+                                                파손
+                                            </option>
+                                            <option>
+                                                ARS:위치,방향,밝기
+                                            </option>
+                                            <option>
+                                                기타
+                                            </option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>고장<br>상세설명</th>
+                                    <td>
+                                        <textarea style="ime-mode:active;"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>*비밀번호</th>
+                                    <td>
+                                        <input type="password" maxlength="8" placeholder="4~8자리">
+                                        <br>
+                                        <p>접수내용 수정시 필요 합니다.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>처리회신</th>
+                                    <td>
+                                        <input type="radio" name="message"> 동의
+                                        <input type="radio" name="message">
+                                        거부
+                                        <br>
+                                        <p>동의 선택시 문자메세지 발송.</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="bt">
+                                <p><input type="submit" value="등록"></p>
+                                <p><input type="reset" value="취소"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="inner1400">
+            <a href="#">
+                <div class="footer_logo"></div>
+            </a>
+            <div class="info_text">
+                <div class="left_box">
+                    <div class="left_box1">
+                        <p>개인정보취급방침</p>
+                        <p>사이트맵</p>
+                    </div>
+                    <div class="left_box2">
+                        <p>TM & Copyright by Roadlighting System. All Right Reverved</p>
+                    </div>
+                </div>
+                <select class="footer_select" onchange="if(this.value)window.open(this.value);">
+                    <option value="">관련기관 홈페이지</option>
+                    <option value="https://www.cheongju.go.kr/www/index.do">청주시청</option>
+                    <option value="https://www.billkorea.co.kr/ebill/index.ac">빌코리아</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(`h1`).click(function () {
+                $(`.right`).addClass(`on`);
+            });
+
+            // $(`.right`).click(function () {
+            //     $(`.right`).removeClass(`on`);
+            // });
+
+            $(`p:last-of-type`).click(function () {
+                $(`.right`).removeClass(`on`);
+            });
+        });
+    </script>
+</body>
+
+</html>
