@@ -62,7 +62,7 @@ header .top_logo {
 .sec1 .inner1400 {
     text-align: center;
     align-items: center;
-    background: url(/intro_bg.png) top right no-repeat;
+    background: url(intro_bg.png) top right no-repeat;
 }
 
 .about_roadlight h2 {
