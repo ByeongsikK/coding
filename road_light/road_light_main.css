@@ -48,7 +48,7 @@ header .inner1400 {
 header .top_logo {
     width: 338px;
     height: 73px;
-    background: url(/road_light/logo.png) no-repeat;
+    background: url(./road_light/logo.png) no-repeat;
     background-size: cover;
 }
 /* header */
