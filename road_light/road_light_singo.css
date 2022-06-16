@@ -29,7 +29,7 @@ header {
 .logo {
     width: 338px;
     height: 73px;
-    background: url(/logo.png) no-repeat;
+    background: url(./logo.png) no-repeat;
     background-size: cover;
     margin: 0 757px 0 0;
 }
@@ -214,7 +214,7 @@ th, td {
 .photo1 {
     width: 145px;
     height: 163px;
-    background: url(/등\ 근거리\ 사진jpg.jpg) no-repeat;
+    background: url(./등\ 근거리\ 사진jpg.jpg) no-repeat;
     background-size: cover;
     margin: 0 10px 0 0;
     outline: 1px solid rgb(153, 153, 153);
@@ -223,7 +223,7 @@ th, td {
 .photo2 {
     width: 145px;
     height: 163px;
-    background: url(/등\ 원거리\ 사진.jpg) no-repeat;
+    background: url(./등\ 원거리\ 사진.jpg) no-repeat;
     background-size: cover;
     outline: 1px solid rgb(153, 153, 153);
 }
@@ -308,7 +308,7 @@ footer .inner1400 {
 .footer_logo {
     width: 250px;
     height: 55px;
-    background: url(/logo.png) no-repeat;
+    background: url(./logo.png) no-repeat;
     background-size: cover;
     margin: 0 50px 0 0;
 }
