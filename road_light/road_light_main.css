@@ -62,7 +62,7 @@ header .top_logo {
 .sec1 .inner1400 {
     text-align: center;
     align-items: center;
-    background: url(/road_light/intro_bg.png) top right no-repeat;
+    background: url(./intro_bg.png) top right no-repeat;
 }
 
 .about_roadlight h2 {
@@ -103,42 +103,42 @@ header .top_logo {
 .icon.n1 {
     width: 80px;
     height: 80px;
-    background: url(/road_light/black-24dp/construction_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background: url(./black-24dp/construction_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n2 {
     width: 80px;
     height: 80px;
-    background: url(/road_light/connect_without_contact_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background: url(./connect_without_contact_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n3 {
     width: 80px;
     height: 80px;
-    background: url(/road_light/build_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background: url(./build_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n4 {
     width: 80px;
     height: 80px;
-    background: url(/road_light/event_note_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background: url(./event_note_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n5 {
     width: 80px;
     height: 80px;
-    background: url(/road_light/how_to_reg_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background: url(./how_to_reg_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n6 {
     width: 80px;
     height: 80px;
-    background: url(/road_light/done_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background: url(./done_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
@@ -182,7 +182,7 @@ header .top_logo {
 .singo {
     width: 71px;
     height: 64px;
-    background: url(/road_light/black-24dp/construction_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background: url(./black-24dp/construction_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
@@ -214,7 +214,7 @@ header .top_logo {
 .cheoli {
     width: 71px;
     height: 64px;
-    background: url(/road_light/engineering_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background: url(./engineering_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
@@ -244,7 +244,7 @@ footer .inner1400 {
 .footer_logo {
     width: 250px;
     height: 55px;
-    background: url(/road_light/logo.png) no-repeat;
+    background: url(./logo.png) no-repeat;
     background-size: cover;
     margin: 0 50px 0 0;
 }
