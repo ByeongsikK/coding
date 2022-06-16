@@ -48,7 +48,7 @@ header .inner1400 {
 header .top_logo {
     width: 338px;
     height: 73px;
-    background: url(/logo.png) no-repeat;
+    background: url(logo.png) no-repeat;
     background-size: cover;
 }
 /* header */
@@ -103,7 +103,7 @@ header .top_logo {
 .icon.n1 {
     width: 80px;
     height: 80px;
-    background: url(/black-24dp/construction_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background: url(./black-24dp/construction_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
