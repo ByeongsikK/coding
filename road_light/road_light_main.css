@@ -436,6 +436,11 @@ footer .inner1400 {
         height: 800px;
     }
 
+    .sec1 .inner1400 {
+        background: url(./intro_bg.png) top right no-repeat;
+        background-size: 400px 350px; 
+    }
+
     h1 {
         font-size: 18px;
     }
