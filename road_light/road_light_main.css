@@ -543,4 +543,10 @@ footer .inner1400 {
     .right_box {
         padding: 15px 140px 0 0;
     }
+
+    .left_box1 p::after {
+        height: 10px;
+        top: 2px;
+        right: -6px;
+    }
 }
