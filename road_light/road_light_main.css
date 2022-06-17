@@ -297,7 +297,7 @@ footer .inner1400 {
 }
 
 .footer_select {
-    width: 150px;
+    width: 135px;
     height: 30px;
 }
 /* footer */
@@ -411,7 +411,7 @@ footer .inner1400 {
     }
 
     .left_box {
-        margin: 0 18px 0 0;
+        margin: 0 15px 0 0;
     }
 
     .left_box1 p::after {
@@ -460,32 +460,32 @@ footer .inner1400 {
         /* width: 174px; */
         /* height: 109px; */
         width: 140px;
-        height: 75px;
+        height: 95px;
     }
 
     .left_bt:hover {
         /* width: 174px; */
         /* height: 109px; */
         width: 140px;
-        height: 75px;
+        height: 95px;
     }
 
     .right_bt {
         /* width: 174px; */
         /* height: 109px; */
         width: 140px;
-        height: 75px;
+        height: 95px;
     }
 
     .right_bt:hover {
         /* width: 174px; */
         /* height: 109px; */
         width: 140px;
-        height: 75px;
+        height: 95px;
     }
 
     .left_bt_box {
-        margin: 0 -40px 0 0;
+        margin: 0 -60px 0 0;
     }
 
     .singo {
