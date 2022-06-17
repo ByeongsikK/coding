@@ -536,7 +536,6 @@ footer .inner1400 {
     .info_text {
         padding: 0 0 0 15px;
         flex-direction: column;
-        justify-content: flex-start;
     }
 
     .left_box {
