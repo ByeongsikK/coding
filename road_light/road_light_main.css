@@ -411,7 +411,7 @@ footer .inner1400 {
     }
 
     .left_box {
-        margin: 0 15px 0 0;
+        margin: 0 30px 0 0;
     }
 
     .left_box1 p::after {
@@ -523,5 +523,9 @@ footer .inner1400 {
 
     .info_text {
         padding: 0 0 0 15px;
+    }
+
+    .left_box {
+        margin: 0 15px 0 0;
     }
 }
