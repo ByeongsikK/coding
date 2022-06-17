@@ -513,11 +513,15 @@ footer .inner1400 {
         align-items: baseline;
     }
 
-    .footer_logo {
-        margin: 0 0 20px 20px;
+    /* .footer_logo {
+        padding: 0 0 20px 20px;
+    } */
+
+    footer a:first-child {
+        padding: 0 0 20px 5px;
     }
 
     .info_text {
-        margin: 0 0 0 30px;
+        padding: 0 0 0 15px;
     }
 }
