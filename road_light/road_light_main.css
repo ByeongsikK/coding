@@ -457,7 +457,7 @@ footer .inner1400 {
 
     h4 {
         /* font-size: 18px; */
-        font-size: 0.8rem;
+        font-size: 1.0rem;
     }
 
     .about_roadlight p {
@@ -469,28 +469,41 @@ footer .inner1400 {
         display: none;
     }
 
+    .bt {
+        padding: 50px;
+        flex-direction: column;;
+    }
+
     .left_bt {
-        width: 140px;
-        height: 95px;
+        /* width: 140px; */
+        /* height: 95px; */
+        width: 200px;
+        height: 120px;
     }
 
     .left_bt:hover {
-        width: 140px;
-        height: 95px;
+        /* width: 140px; */
+        /* height: 95px; */
+        width: 200px;
+        height: 120px;
     }
 
     .right_bt {
-        width: 140px;
-        height: 95px;
+        /* width: 140px; */
+        /* height: 95px; */
+        width: 200px;
+        height: 120px;
     }
 
     .right_bt:hover {
-        width: 140px;
-        height: 95px;
+        /* width: 140px; */
+        /* height: 95px; */
+        width: 200px;
+        height: 120px;
     }
 
     .left_bt_box {
-        margin: 0 -60px 0 0;
+        padding: 0 0 50px 0;
     }
 
     .singo {
