@@ -443,7 +443,7 @@ footer .inner1400 {
 
     h1 {
         /* font-size: 18px; */
-        font-size: 0.8rem;
+        font-size: 0.82rem;
     }
 
     h2 {
@@ -452,7 +452,7 @@ footer .inner1400 {
     }
 
     h3 {
-        font-size: 0.7rem;
+        font-size: 0.71rem;
     }
 
     h4 {
@@ -528,6 +528,6 @@ footer .inner1400 {
     }
 
     .right_box {
-        padding: 15px 145px 0 0;
+        padding: 15px 140px 0 0;
     }
 }
