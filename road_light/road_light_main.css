@@ -70,7 +70,7 @@ header .top_logo {
 }
 
 .about_roadlight p {
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
     padding: 0 0 50px 0;
 }
@@ -151,10 +151,12 @@ header .top_logo {
 }
 
 .left_bt_box {
-    margin: 0 192px 0 0;
+    padding: 0 192px 0 0;
 }
 
 .left_bt {
+    /* width: 200%;
+    height: 11rem; */
     width: 243px;
     height: 169px;
     display: flex;
@@ -315,23 +317,28 @@ footer .inner1400 {
     }
 
     h1 {
-        font-size: 25px;
+        /* font-size: 25px; */
+        font-size: 2.0rem;
     }
 
     h2 {
-        font-size: 25px;
+        /* font-size: 25px; */
+        font-size: 1.6rem;
     }
 
     h3 {
-        font-size: 14px;
+        /* font-size: 14px; */
+        font-size: 1.0rem;
     }
 
     h4 {
-        font-size: 20px;
+        /* font-size: 20px; */
+        font-size: 1.6rem;
     }
 
     .about_roadlight p {
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size: 1.0rem;
     }
 
     .card {
@@ -340,6 +347,7 @@ footer .inner1400 {
 
     .card p {
         font-size: 11px;
+        font-size: 0.7rem;
     }
 
     .icon_box .icon {
@@ -350,25 +358,34 @@ footer .inner1400 {
     .left_bt {
         width: 204px;
         height: 139px;
+        /* width: 12.8em; */
+        /* height: 9em; */
+        /* width: 200%; */
+        /* height: 140%; */
     }
 
     .left_bt:hover {
         width: 204px;
         height: 139px;
+        /* width: 200%; */
     }
 
     .right_bt {
         width: 204px;
         height: 139px;
+        /* width: 200%; */
+        /* width: 12.8em; */
+        /* height: 9em; */
     }
 
     .right_bt:hover {
         width: 204px;
         height: 139px;
+        /* width: 200%; */
     }
 
     .left_bt_box {
-        margin: 0 109px 0 0;
+        padding: 0 100px 0 0;
     }
 
     .singo {
@@ -440,27 +457,35 @@ footer .inner1400 {
     }
 
     .left_bt {
-        width: 174px;
-        height: 109px;
+        /* width: 174px; */
+        /* height: 109px; */
+        width: 140px;
+        height: 75px;
     }
 
     .left_bt:hover {
-        width: 174px;
-        height: 109px;
+        /* width: 174px; */
+        /* height: 109px; */
+        width: 140px;
+        height: 75px;
     }
 
     .right_bt {
-        width: 174px;
-        height: 109px;
+        /* width: 174px; */
+        /* height: 109px; */
+        width: 140px;
+        height: 75px;
     }
 
     .right_bt:hover {
-        width: 174px;
-        height: 109px;
+        /* width: 174px; */
+        /* height: 109px; */
+        width: 140px;
+        height: 75px;
     }
 
     .left_bt_box {
-        margin: 0 50px 0 0;
+        margin: 0 -40px 0 0;
     }
 
     .singo {
