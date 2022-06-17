@@ -443,16 +443,19 @@ footer .inner1400 {
 
     h1 {
         /* font-size: 18px; */
-        font-size: 0.82rem;
+        /* font-size: 0.82rem; */
+        font-size: 1.6rem;
     }
 
     h2 {
         /* font-size: 18px; */
-        font-size: 1.1rem;
+        /* font-size: 1.1rem; */
+        font-size: 1.2rem
     }
 
     h3 {
-        font-size: 0.5rem;
+        /* font-size: 0.5rem; */
+        font-size: 0.6rem;
     }
 
     h4 {
@@ -462,7 +465,7 @@ footer .inner1400 {
 
     .about_roadlight p {
         /* font-size: 15px; */
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }
 
     .card p {
