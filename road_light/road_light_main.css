@@ -328,7 +328,7 @@ footer .inner1400 {
 
     h3 {
         /* font-size: 14px; */
-        font-size: 1.0rem;
+        font-size: 0.7rem;
     }
 
     h4 {
@@ -346,8 +346,8 @@ footer .inner1400 {
     }
 
     .card p {
-        font-size: 11px;
-        font-size: 0.7rem;
+        /* font-size: 11px; */
+        font-size: 0.5rem;
     }
 
     .icon_box .icon {
