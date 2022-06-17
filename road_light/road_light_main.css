@@ -442,19 +442,27 @@ footer .inner1400 {
     }
 
     h1 {
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size: 0.8rem;
     }
 
     h2 {
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size: 0.8rem;
+    }
+
+    h3 {
+        font-size: 0.7rem;
     }
 
     h4 {
-        font-size: 18px;
+        /* font-size: 18px; */
+        font-size: 0.8rem;
     }
 
     .about_roadlight p {
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size: 0.6rem;
     }
 
     .card p {
@@ -462,29 +470,21 @@ footer .inner1400 {
     }
 
     .left_bt {
-        /* width: 174px; */
-        /* height: 109px; */
         width: 140px;
         height: 95px;
     }
 
     .left_bt:hover {
-        /* width: 174px; */
-        /* height: 109px; */
         width: 140px;
         height: 95px;
     }
 
     .right_bt {
-        /* width: 174px; */
-        /* height: 109px; */
         width: 140px;
         height: 95px;
     }
 
     .right_bt:hover {
-        /* width: 174px; */
-        /* height: 109px; */
         width: 140px;
         height: 95px;
     }
@@ -512,10 +512,6 @@ footer .inner1400 {
         flex-direction: column;
         align-items: baseline;
     }
-
-    /* .footer_logo {
-        padding: 0 0 20px 20px;
-    } */
 
     footer a:first-child {
         padding: 0 0 20px 5px;
