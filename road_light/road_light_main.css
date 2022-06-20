@@ -472,6 +472,11 @@ footer .inner1400 {
         display: none;
     }
 
+    .icon_box .icon {
+        width: 30px;
+        height: 30px;
+    }
+
     .bt {
         padding: 50px;
         flex-direction: column;;
