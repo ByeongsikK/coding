@@ -456,7 +456,8 @@ footer .inner1400 {
 
     h3 {
         /* font-size: 0.5rem; */
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+        word-break: keep-all;
     }
 
     h4 {
@@ -476,6 +477,10 @@ footer .inner1400 {
     .icon_box .icon {
         width: 30px;
         height: 30px;
+    }
+
+    .text span {
+        font-size: 0.5rem;
     }
 
     .bt {
