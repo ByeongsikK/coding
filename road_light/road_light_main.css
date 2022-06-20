@@ -445,6 +445,7 @@ footer .inner1400 {
         /* font-size: 18px; */
         /* font-size: 0.82rem; */
         font-size: 1.6rem;
+        word-break: keep-all;
     }
 
     h2 {
