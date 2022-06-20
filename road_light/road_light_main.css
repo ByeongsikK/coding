@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -71,7 +71,7 @@ header .top_logo {
 }
 
 .about_roadlight p {
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     padding: 0 0 50px 0;
 }
@@ -87,11 +87,12 @@ header .top_logo {
 
 .card {
     padding: 0 10px;
+    width: 16.6%;
 }
 
 .card p {
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     padding: 5px 0 0 0;
 }
 
@@ -457,9 +458,7 @@ footer .inner1400 {
 
     h3 {
         /* font-size: 0.5rem; */
-        font-size: 0.6rem;
-        /* word-break: keep-all; */
-        line-height: 13px;  
+        font-size: 0.6rem; 
     }
 
     h4 {
