@@ -602,6 +602,10 @@ footer .inner1400 {
         display: none;
     }
 
+    tr th:nth-child(7) {
+        display: none;
+    }
+
     tr th:nth-child(8) {
         display: none;
     }
@@ -611,6 +615,10 @@ footer .inner1400 {
     }
 
     tr td:nth-child(3) {
+        display: none;
+    }
+
+    tr td:nth-child(7) {
         display: none;
     }
 
