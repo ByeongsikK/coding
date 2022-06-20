@@ -488,8 +488,8 @@ footer .inner1400 {
 
     .map iframe {
         width: 100%;
-        /* height: calc(100vh - 380px); */
-        height: 407px;
+        height: calc(100vh - 260px);
+        /* height: 407px; */
     }
 
     footer {
