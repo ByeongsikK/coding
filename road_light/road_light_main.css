@@ -87,6 +87,7 @@ header .top_logo {
 
 .card {
     padding: 0 10px;
+    line-height: 130%;
 }
 
 .card p {
@@ -349,7 +350,6 @@ footer .inner1400 {
     .card p {
         /* font-size: 11px; */
         font-size: 0.5rem;
-        line-height: 130%;
     }
 
     .icon_box .icon {
