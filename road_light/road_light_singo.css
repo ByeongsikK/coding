@@ -464,7 +464,6 @@ footer .inner1400 {
     .menu a {
         width: 80px;
         height: 39px;
-        /* font-size: 18px; */
         font-size: 15px;
 
     }
@@ -476,7 +475,7 @@ footer .inner1400 {
     .menu a:hover {
         width: 80px;
         height: 39px;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .menu a:nth-child(1) {
