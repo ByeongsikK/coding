@@ -594,6 +594,42 @@ footer .inner1400 {
         font-size: 20px;
     }
 
+    tr th:nth-child(2) {
+        display: none;
+    }
+
+    tr th:nth-child(3) {
+        display: none;
+    }
+
+    tr th:nth-child(8) {
+        display: none;
+    }
+
+    tr td:nth-child(2) {
+        display: none;
+    }
+
+    tr td:nth-child(3) {
+        display: none;
+    }
+
+    tr td:nth-child(8) {
+        display: none;
+    }
+
+    .pgnum {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        margin: 0 0;
+        text-decoration: none;
+        color: rgb(131, 131, 131);
+    }
+
     footer {
         height: 200px;
     }
