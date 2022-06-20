@@ -90,10 +90,14 @@ header {
     display: flex;
 }
 
-.map iframe {
+/* .map iframe {
     height: calc(100vh - 280px);
-}
+} */
 
+#map {
+    width: 1058;
+    height: calc(100vh - 260px);
+}
 
 .info_write {
     display: flex;
@@ -413,7 +417,12 @@ footer .inner1400 {
         position: relative;
     }
 
-    .map iframe {
+    /* .map iframe {
+        width: 100%;
+        height: calc(100vh - 260px);
+    } */
+
+    #map {
         width: 100%;
         height: calc(100vh - 260px);
     }
@@ -422,6 +431,7 @@ footer .inner1400 {
         position: fixed;
         right: -1000px;
         overflow: hidden;
+        z-index: 10;
     }
 
     .right.on {
