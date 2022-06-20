@@ -459,7 +459,7 @@ footer .inner1400 {
         /* font-size: 0.5rem; */
         font-size: 0.6rem;
         /* word-break: keep-all; */
-        line-height: inherit;
+        line-height: 13px;  
     }
 
     h4 {
