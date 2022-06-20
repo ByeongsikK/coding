@@ -90,14 +90,14 @@ header {
     display: flex;
 }
 
-/* .map iframe {
+.map iframe {
     height: calc(100vh - 280px);
-} */
+}
 
-#map {
+/* #map {
     width: 1058;
     height: calc(100vh - 260px);
-}
+} */
 
 .info_write {
     display: flex;
@@ -417,15 +417,15 @@ footer .inner1400 {
         position: relative;
     }
 
-    /* .map iframe {
-        width: 100%;
-        height: calc(100vh - 260px);
-    } */
-
-    #map {
+    .map iframe {
         width: 100%;
         height: calc(100vh - 260px);
     }
+
+    /* #map {
+        width: 100%;
+        height: calc(100vh - 260px);
+    } */
 
     .right {
         position: fixed;
