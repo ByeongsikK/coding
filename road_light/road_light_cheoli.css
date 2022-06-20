@@ -105,6 +105,8 @@ header {
 
 .date {
     display: flex;
+    height: 40px;
+    margin: 0 10px;
 }
 
 h2 {
@@ -123,7 +125,7 @@ h2 {
 .sec1 select:nth-child(3) {
     width: 100px;
     height: 40px;
-    margin: 0 5px 0 5px;
+    margin: 0 10px 0 0;
     border: 1px solid #D2D2D2;
 }
 
@@ -162,7 +164,7 @@ input[type="submit"] {
     color: #fff;
     font-size: 15px;
     border: 1px solid #D2D2D2;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 0;
 }
 
 input[type="submit"]:hover {
@@ -172,7 +174,7 @@ input[type="submit"]:hover {
     color: #D2D2D2;
     font-size: 15px;
     border: 1px solid #D2D2D2;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 0;
 }
 /* sec1 */
 
@@ -437,7 +439,7 @@ footer .inner1400 {
 
 
 /* 태블릿 */
-@media all and (max-width: 1360px)
+@media all and (max-width: 1000px)
 {
     .inner1400 {
         width: 100%;
@@ -494,14 +496,14 @@ footer .inner1400 {
             margin: 0 5px 15px 5px;
         }
 
-        /* .sec1 select:nth-child(3) {
+        .sec1 select:nth-child(3) {
             margin: 0 5px 15px 5px;
-        } */
+        }
 
         .input_box {
             width: 346px;
             order: 1;
-            /* margin: 0 0 15px 0; */
+            margin: 0 0 15px 0;
             display: flex;
             justify-content: center;
         }
@@ -595,12 +597,8 @@ footer .inner1400 {
         font-size: 20px;
     }
 
-    .input_box {
-        width: 340px;
-    }
-
     input[type="text"] {
-        width: 320px;
+        width: 300px;
     }
 
     .date {
