@@ -298,6 +298,13 @@
     <script src="./jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
+            $('.pgnum:first-child').addClass('on');
+
+            $('.pgnum').click(function () {
+                $('.pgnum').addClass('on')
+                    .siblings().removeClass('on').end();
+            });
+
             $(`.pgnum`).click(function () {
                 $(this).addClass(`on`);
             });
