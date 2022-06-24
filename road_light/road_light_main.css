@@ -324,12 +324,11 @@ footer .inner1400 {
 @media all and (max-width: 1000px)
 {
     body {
-        overflow-x: hidden;
         width: 100%;
     }
 
     .inner1400 {
-        width: 100%;
+        width: 95%;
     }
 
     h1 {
@@ -449,7 +448,7 @@ footer .inner1400 {
     }
 
     .sec1 {
-        height: 800px;
+        height: 1000px;
     }
 
     .sec1 .inner1400 {
