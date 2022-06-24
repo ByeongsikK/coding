@@ -14,18 +14,21 @@ h1{
     font-size: 50px;
     color: #fff;
     margin: 0 0 50px 0;
-    padding: 150px 0 0 0;
+    padding: 200px 0 0 0;
+    text-shadow: 3px 4px 10px #000000;
 }
 
 h2 {
     font-size: 35px;
     color: #fff;
     padding: 0 0 25px 0;
+    text-shadow: 3px 4px 10px #000000;
 }
 
 h3 {
     font-size: 18px;
     color: #fff;
+    text-shadow: 3px 4px 10px #000000;
 }
 
 h4 {
@@ -39,15 +42,18 @@ h4 {
 
 /* header */
 header {
+    display: flex;
+    align-items: center;
+    height: 100px;
     /* background: linear-gradient(90deg, #006299 23.41%, rgba(0, 103, 162, 0.978191) 35.86%, rgba(0, 120, 187, 0.929511) 50.45%, rgba(31, 134, 191, 0.786458) 68.29%, rgba(0, 151, 193, 0.833278) 79.73%, rgba(0, 161, 193, 0.851639) 84.22%, rgba(0, 163, 185, 0.87) 88.71%); */
     background: #000000;
 }
 
 header .inner1400 {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 header .top_logo {
@@ -108,6 +114,7 @@ header .top_logo {
     font-size: 12px;
     padding: 10px 0 20px 0;
     line-height: 130%;
+    text-shadow: 3px 4px 10px #000000;
 }
 
 .icon_box {
@@ -117,43 +124,43 @@ header .top_logo {
 }
 
 .icon.n1 {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: url(./black-24dp/construction_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n2 {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: url(./connect_without_contact_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n3 {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: url(./build_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n4 {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: url(./event_note_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n5 {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: url(./how_to_reg_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n6 {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: url(./done_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
     background-size: cover;
 }
@@ -448,7 +455,7 @@ footer .inner1400 {
     }
 
     .sec1 {
-        height: 1000px;
+        height: 1100px;
     }
 
     .sec1 .inner1400 {
