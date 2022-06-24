@@ -18,7 +18,8 @@ header {
     display: flex;
     align-items: center;
     height: 100px;
-    background: linear-gradient(90deg, #006299 23.41%, rgba(0, 103, 162, 0.978191) 35.86%, rgba(0, 120, 187, 0.929511) 50.45%, rgba(31, 134, 191, 0.786458) 68.29%, rgba(0, 151, 193, 0.833278) 79.73%, rgba(0, 161, 193, 0.851639) 84.22%, rgba(0, 163, 185, 0.87) 88.71%);
+    /* background: linear-gradient(90deg, #006299 23.41%, rgba(0, 103, 162, 0.978191) 35.86%, rgba(0, 120, 187, 0.929511) 50.45%, rgba(31, 134, 191, 0.786458) 68.29%, rgba(0, 151, 193, 0.833278) 79.73%, rgba(0, 161, 193, 0.851639) 84.22%, rgba(0, 163, 185, 0.87) 88.71%); */
+    background: #000;
 }
 
 .top {
@@ -27,8 +28,10 @@ header {
 }
 
 .logo {
-    width: 338px;
-    height: 73px;
+    /* width: 338px;
+    height: 73px; */
+    width: 328px;
+    height: 68px;
     background: url(./logo.png) no-repeat;
     background-size: cover;
     margin: 0 757px 0 0;
@@ -45,8 +48,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 112px;
-    height: 49px;
+    /* width: 112px;
+    height: 49px; */
+    width: 105px;
+    height: 39px;
     text-decoration: none;
     color: #fff;
     font-size: 25px;
@@ -60,8 +65,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 112px;
-    height: 49px;
+    /* width: 112px;
+    height: 49px; */
+    width: 105px;
+    height: 39px;
     text-decoration: none;
     color: #6D6D6D;
     font-size: 25px;

@@ -10,18 +10,21 @@
 
 
 h1{
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 50px;
     color: #fff;
     margin: 0 0 50px 0;
+    padding: 150px 0 0 0;
 }
 
 h2 {
     font-size: 35px;
     color: #fff;
+    padding: 30px 0 30px 0;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
 }
 
@@ -36,7 +39,8 @@ h4 {
 
 /* header */
 header {
-    background: linear-gradient(90deg, #006299 23.41%, rgba(0, 103, 162, 0.978191) 35.86%, rgba(0, 120, 187, 0.929511) 50.45%, rgba(31, 134, 191, 0.786458) 68.29%, rgba(0, 151, 193, 0.833278) 79.73%, rgba(0, 161, 193, 0.851639) 84.22%, rgba(0, 163, 185, 0.87) 88.71%);
+    /* background: linear-gradient(90deg, #006299 23.41%, rgba(0, 103, 162, 0.978191) 35.86%, rgba(0, 120, 187, 0.929511) 50.45%, rgba(31, 134, 191, 0.786458) 68.29%, rgba(0, 151, 193, 0.833278) 79.73%, rgba(0, 161, 193, 0.851639) 84.22%, rgba(0, 163, 185, 0.87) 88.71%); */
+    background: #000000;
 }
 
 header .inner1400 {
@@ -47,8 +51,8 @@ header .inner1400 {
 }
 
 header .top_logo {
-    width: 338px;
-    height: 73px;
+    width: 328px;
+    height: 68px;
     background: url(./logo.png) no-repeat;
     background-size: cover;
 }
@@ -57,8 +61,12 @@ header .top_logo {
 /* sec1 */
 .sec1 {
     /* height: calc(100vh - 173px); */
-    height: 930px;
-    background: linear-gradient(90deg, #006299 23.41%, rgba(0, 103, 162, 0.978191) 35.86%, rgba(0, 120, 187, 0.929511) 50.45%, rgba(31, 134, 191, 0.786458) 68.29%, rgba(0, 151, 193, 0.833278) 79.73%, rgba(0, 161, 193, 0.851639) 84.22%, rgba(0, 163, 185, 0.87) 88.71%);
+    /* height: 930px; */
+    height: 1500px;
+    /* background: linear-gradient(90deg, #006299 23.41%, rgba(0, 103, 162, 0.978191) 35.86%, rgba(0, 120, 187, 0.929511) 50.45%, rgba(31, 134, 191, 0.786458) 68.29%, rgba(0, 151, 193, 0.833278) 79.73%, rgba(0, 161, 193, 0.851639) 84.22%, rgba(0, 163, 185, 0.87) 88.71%); */
+    background-image: url(/road_light/도로사진/우측\ 가로등-1.jpg);
+    background-size: cover;
+    /* background: url(/road_light/도로사진/bg_grid2.gif); */
 }
 .sec1 .inner1400 {
     text-align: center;
@@ -76,6 +84,11 @@ header .top_logo {
     padding: 0 0 50px 0;
 }
 
+.system_cycle {
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
 .system_cycle h2{
     padding: 0 0 20px 0;
 }
@@ -91,8 +104,8 @@ header .top_logo {
 
 .card p {
     color: #fff;
-    font-size: 14px;
-    padding: 5px 0 0 0;
+    font-size: 12px;
+    padding: 10px 0 20px 0;
     line-height: 130%;
 }
 
