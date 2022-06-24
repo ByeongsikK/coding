@@ -301,7 +301,8 @@ tr:nth-child(5) td p {
 
 /* footer */
 footer {
-    background-color: #484848;
+    /* background-color: #484848; */
+    background-color: #2b2b2b;
     height: 80px;
     display: flex;
     justify-content: center;
