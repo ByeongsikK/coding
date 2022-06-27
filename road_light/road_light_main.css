@@ -118,42 +118,42 @@ header .top_logo {
 .icon.n1 {
     width: 70px;
     height: 70px;
-    background: url(/road_light/민원인고장신고.svg) no-repeat;
+    background: url(./민원인고장신고.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n2 {
     width: 70px;
     height: 70px;
-    background: url(/road_light/신고접수및작업지시.svg) no-repeat;
+    background: url(./신고접수및작업지시.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n3 {
     width: 70px;
     height: 70px;
-    background: url(/road_light/보수업체고장수리.svg) no-repeat;
+    background: url(./보수업체고장수리.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n4 {
     width: 70px;
     height: 70px;
-    background: url(/road_light/작업완료보고.svg) no-repeat;
+    background: url(./작업완료보고.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n5 {
     width: 70px;
     height: 70px;
-    background: url(/road_light/수리내역확인및승인.svg) no-repeat;
+    background: url(./수리내역확인및승인.svg) no-repeat;
     background-size: cover;
 }
 
 .icon.n6 {
     width: 70px;
     height: 70px;
-    background: url(/road_light/처리내용보고.svg) no-repeat;
+    background: url(./처리내용보고.svg) no-repeat;
     background-size: cover;
 }
 
