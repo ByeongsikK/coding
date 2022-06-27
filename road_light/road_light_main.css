@@ -13,8 +13,7 @@ h1{
     /* font-size: 40px; */
     font-size: 50px;
     color: #fff;
-    margin: 0 0 50px 0;
-    padding: 200px 0 0 0;
+    padding: 200px 0 50px 0;
     text-shadow: 3px 3px 10px #000000;
 }
 
@@ -466,6 +465,7 @@ footer .inner1400 {
         /* font-size: 0.82rem; */
         font-size: 1.6rem;
         word-break: keep-all;
+        padding: 100px 0 50px 0;
     }
 
     h2 {
