@@ -569,8 +569,10 @@ footer .inner1400 {
     }
 
     .footer_logo {
-        width: 250px;
-        height: 55px;
+        /* width: 250px;
+        height: 55px; */
+        width: 200px;
+        height: 45px;
     }
 
     footer .inner1400 {
