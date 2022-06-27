@@ -467,7 +467,6 @@ footer .inner1400 {
 
     h1 {
         font-size: 1.6rem;
-        word-break: keep-all;
         padding: 100px 0 50px 0;
     }
 
@@ -477,6 +476,7 @@ footer .inner1400 {
 
     h3 {
         font-size: 0.4rem;
+        width: 90px;
     }
 
     h4 {
@@ -485,6 +485,25 @@ footer .inner1400 {
 
     .about_roadlight p {
         font-size: 0.85rem;
+    }
+
+    .card_list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardbox1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cardbox2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        padding: 5px 15px;
     }
 
     .card p {
