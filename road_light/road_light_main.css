@@ -112,7 +112,7 @@ header .top_logo {
 .card p {
     color: #fff;
     font-size: 12px;
-    padding: 10px 0 20px 0;
+    padding: 10px 0 30px 0;
     line-height: 130%;
     text-shadow: 3px 3px 10px #000000;
 }
@@ -508,6 +508,7 @@ footer .inner1400 {
     .cardbox2 {
         display: flex;
         justify-content: center;
+        padding: 0 0 25px 0;
     }
 
     .card {
