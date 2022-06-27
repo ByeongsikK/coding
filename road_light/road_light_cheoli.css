@@ -721,6 +721,11 @@ footer .inner1400 {
         height: 200px;
     }
 
+    .footer_logo {
+        width: 200px;
+        height: 43px;
+    }
+
     footer .inner1400 {
         display: flex;
         flex-direction: column;
@@ -728,7 +733,7 @@ footer .inner1400 {
     }
 
     footer a:first-child {
-        padding: 0 0 20px 5px;
+        padding: 0 0 20px 10px;
     }
 
     .info_text {

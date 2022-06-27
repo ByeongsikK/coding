@@ -569,12 +569,8 @@ footer .inner1400 {
     }
 
     .footer_logo {
-        /* width: 250px;
-        height: 55px; */
         width: 200px;
         height: 43px;
-        /* width: 192px;
-        height: 43px; */
     }
 
     footer .inner1400 {
@@ -584,7 +580,7 @@ footer .inner1400 {
     }
 
     footer a:first-child {
-        padding: 0 0 20px 5px;
+        padding: 0 0 20px 10px;
     }
 
     .info_text {
