@@ -568,6 +568,11 @@ footer .inner1400 {
         height: 200px;
     }
 
+    .footer_logo {
+        width: 250px;
+        height: 55px;
+    }
+
     footer .inner1400 {
         display: flex;
         flex-direction: column;
