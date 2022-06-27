@@ -15,20 +15,20 @@ h1{
     color: #fff;
     margin: 0 0 50px 0;
     padding: 200px 0 0 0;
-    text-shadow: 3px 4px 10px #000000;
+    text-shadow: 3px 3px 10px #000000;
 }
 
 h2 {
     font-size: 35px;
     color: #fff;
     padding: 0 0 25px 0;
-    text-shadow: 3px 4px 10px #000000;
+    text-shadow: 3px 3px 10px #000000;
 }
 
 h3 {
     font-size: 18px;
     color: #fff;
-    text-shadow: 3px 4px 10px #000000;
+    text-shadow: 3px 3px 10px #000000;
 }
 
 h4 {
@@ -67,7 +67,7 @@ header .top_logo {
 /* sec1 */
 .sec1 {
     height: 1200px;
-    background: url(/road_light/도로사진/우측\ 가로등-1\(lightness\).png) no-repeat;
+    background: url(./도로사진/우측\ 가로등-lightness.png) no-repeat;
     background-size: cover;
 }
 
@@ -84,6 +84,7 @@ header .top_logo {
     font-size: 18px;
     color: #fff;
     padding: 0 0 50px 0;
+    text-shadow: 3px 3px 10px #000000;
 }
 
 .system_cycle {
@@ -109,7 +110,7 @@ header .top_logo {
     font-size: 12px;
     padding: 10px 0 20px 0;
     line-height: 130%;
-    text-shadow: 3px 4px 10px #000000;
+    text-shadow: 3px 3px 10px #000000;
 }
 
 .icon_box {
