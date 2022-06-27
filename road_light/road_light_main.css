@@ -172,6 +172,7 @@ header .top_logo {
     justify-content: center;
     align-items: center;
     padding: 60px 0;
+
 }
 
 .left_bt_box {
@@ -450,6 +451,11 @@ footer .inner1400 {
 /* 모바일 */
 @media all and (max-width: 600px) 
 {
+
+    header {
+        height: 80px;
+    }
+
     header .top_logo {
         width: 192px;
         height: 43px;
@@ -499,7 +505,8 @@ footer .inner1400 {
     }
 
     .bt {
-        padding: 50px;
+        /* padding: 50px; */
+        padding: 70px;
         flex-direction: column;;
     }
 

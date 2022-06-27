@@ -571,6 +571,9 @@ footer .inner1400 {
 /* 모바일 */
 @media all and (max-width: 600px) 
 {
+    header {
+        height: 80px;
+    }
 
     .logo {
         width: 150px;
