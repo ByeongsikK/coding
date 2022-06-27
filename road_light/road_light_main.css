@@ -97,6 +97,14 @@ header .top_logo {
     padding: 0 20px;
 }
 
+.cardbox1 {
+    display: flex;
+}
+
+.cardbox2 {
+    display: flex;
+}
+
 .card {
     padding: 0 10px;
 }
