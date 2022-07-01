@@ -438,12 +438,17 @@ footer .inner1400 {
         right: -1000px;
         overflow: hidden;
         z-index: 10;
+        outline: 1px solid rgb(160, 160, 160);
     }
 
     .right.on {
         position: absolute;
         right: 0;
         background: #fff;
+    }
+
+    .right .pyochal_search {
+        padding: 5px 0 0 0;
     }
 
     .footer_logo {
