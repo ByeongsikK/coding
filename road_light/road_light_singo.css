@@ -33,7 +33,6 @@ header {
     height: 90px;
     background: url(./Asset\ 1.png) no-repeat;
     background-size: cover;
-    margin: 0 757px 0 0;
 }
 
 .menu {
@@ -41,6 +40,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 0 0 757px;
 }
 
 .menu a {
@@ -153,7 +153,9 @@ table {
 
 
 .title { 
-    width: 330px;
+    /* width: 330px;
+    height: 38px; */
+    width: 400px;
     height: 38px;
     background: #D0D0D0;
     border-radius: 5px;
@@ -175,6 +177,7 @@ table {
 
 .search select {
     margin: 0 10px 0 0;
+    padding: 5px;
 }
 
 
@@ -208,9 +211,10 @@ th, td {
 }
 
 .bt input {
-    width: 45px;
-    height: 18px;
+    /* width: 50px; */
+    /* height: 18px; */
     font-size: 11px;
+    padding: 5px 10px;
 }
 
 
@@ -258,7 +262,7 @@ input[type="password"] {
 
 .search input[type="text"] {
     width: 200px;
-    padding: 0 5px;
+    padding: 5px;
 }
 
 .mobile {
@@ -384,7 +388,7 @@ footer .inner1400 {
 @media all and (max-width: 1000px)
 {
     .inner1400 {
-        width: 100%;
+        width: 95%;
     }
 
     header .top {
