@@ -39,7 +39,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0 0 757px;
+    margin: 0 0 0 780px;
 }
 
 .menu a {
@@ -68,6 +68,22 @@ header {
     font-size: 25px;
     background: #fff;
     border-radius: 5px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+}
+
+.logout a {
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.logout a:hover {
+    color: white;
+    text-decoration: 1px solid underline;
 }
 /* header */
 
