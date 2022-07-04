@@ -28,9 +28,6 @@ header {
 }
 
 .logo {
-    /* width: 328px;
-    height: 68px;
-    background: url(./logo.png) no-repeat; */
     width: 162px;
     height: 90px;
     background: url(./Asset\ 1.png) no-repeat;
@@ -49,8 +46,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 112px; */
-    /* height: 49px; */
     width: 105px;
     height: 39px;
     text-decoration: none;

@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid #000; */
+    word-break: keep-all;
+}
+
+.inner1400 {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: #000;
+}
+
+.top {
+    display: flex;
+}
+
+.logo {
+    width: 162px;
+    height: 90px;
+    background: url(./Asset\ 1.png) no-repeat;
+    background-size: cover;
+}
+/* header */
+
+/* sec1 */
+.sec1 .inner1400 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 180px);
+}
+
+h1 {
+    font-size: 35px;
+    width: 1000px;
+    border-bottom: 2px solid #E2E1E1;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    width: 1000px;
+    padding-top: 20px;
+}
+
+.notice p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.login_img {
+    background: url(./login_icon.png);
+    /*"https://www.flaticon.com/kr/free-icons/" title="로그인 아이콘">로그인 아이콘  제작자: Pixel perfect - Flaticon*/
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: 80px 0 0 0;
+}
+
+.ganpyeon_bt {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    width: 450px;
+    height: 130px;
+    background: #3C67D6;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;  
+}
+
+.ganpyeon_bt:hover {
+    text-decoration: 2px solid underline;
+    font-size: 30px;
+    font-weight: bold;
+    width: 450px;
+    height: 130px;
+    background: #3C67D6;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;  
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_icon {
+    display: flex;
+}
+
+.card {
+    padding: 10px 5px;
+}
+
+.kakao {
+    width: 35px;
+    height: 35px;
+    background: url(./간편인증아이콘/kakao.png) no-repeat;
+    background-size: cover;
+}
+
+.pass {
+    width: 35px;
+    height: 35px;
+    background: url(./간편인증아이콘/PASS.png) no-repeat;
+    background-size: cover;
+}
+
+.kb {
+    width: 35px;
+    height: 35px;
+    background: url(./간편인증아이콘/KB.png) no-repeat;
+    background-size: cover;
+}
+
+.samsung {
+    width: 35px;
+    height: 35px;
+    background: url(./간편인증아이콘/SAMSUNGPASS.png) no-repeat;
+    background-size: cover;
+}
+
+.naver {
+    width: 35px;
+    height: 35px;
+    background: url(./간편인증아이콘/NAVER.png) no-repeat;
+    background-size: cover;
+}
+
+.shinhan {
+    width: 35px;
+    height: 35px;
+    background: url(./간편인증아이콘/shinhan.png) no-repeat;
+    background-size: cover;
+}
+
+
+.ganpyeon_notice {
+    margin-top: 30px;
+    padding: 30px;
+    width: 800px;
+    height: 264x;
+    background: #f0f5f9;
+    position: relative;
+}
+
+.ganpyeon_notice strong::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 32px;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+    background: url(./check_circle_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
+    background-size: cover;
+}
+
+.ganpyeon_notice strong {
+    font-size: 20px;
+    padding: 0 0 0 25px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 15px;
+    padding: 0 0 5px 12px;
+}
+
+.ganpyeon_notice p {
+    font-size: 15px;
+    margin: 10px 0 5px 0;
+}
+
+/* sec1 */
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    /* background-color: #484848; */
+    background-color: #2b2b2b;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .inner1400 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo {
+    /* width: 250px;
+    height: 55px;
+    background: url(./logo.png) no-repeat; */
+    width: 112px;
+    height: 62px;
+    background: url(./Asset\ 1.png) no-repeat;
+    background-size: cover;
+    margin: 0 50px 0 0;
+}
+
+.info_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.info_text p {
+    font-size: 12px;
+}
+
+.left_box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 355px 0 0;
+}
+
+.left_box1 {
+    display: flex;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+.left_box1 p{
+    position: relative;
+}
+
+.left_box1 p:nth-child(1) {
+    margin: 0 10px 0 0;
+}
+
+.left_box1 p::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background: #fff;
+    top: 3px;
+    right: -5px;
+}
+
+.left_box1 p:last-child::after {
+    display: none;
+}
+
+.footer_select {
+    width: 135px;
+    height: 30px;
+}
+/* footer */

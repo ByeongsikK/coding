@@ -27,9 +27,6 @@ header {
 }
 
 .logo {
-    /* width: 328px;
-    height: 68px;
-    background: url(./logo.png) no-repeat; */
     width: 162px;
     height: 90px;
     background: url(./Asset\ 1.png) no-repeat;
@@ -48,8 +45,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 112px;
-    height: 49px; */
     width: 105px;
     height: 39px;
     text-decoration: none;
@@ -65,8 +60,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 112px;
-    height: 49px; */
     width: 105px;
     height: 39px;
     text-decoration: none;
@@ -127,7 +120,8 @@ table {
 }
 
 .right h2 {
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 16px;
     margin-left: 10px;
 }
 
@@ -154,13 +148,13 @@ table {
 
 
 .title { 
-    /* width: 330px;
+    /* width: 400px;
     height: 38px; */
-    width: 400px;
-    height: 38px;
+    width: 420px;
+    height: 40px;
     background: #D0D0D0;
     border-radius: 5px;
-    line-height: 38px;
+    line-height: 40px;
     margin: 10px 0;
 }
 
@@ -227,8 +221,10 @@ th, td {
 }
 
 .photo1 {
-    width: 145px;
-    height: 163px;
+    /* width: 145px;
+    height: 163px; */
+    width: 172px;
+    height: 235px;
     background: url(./등\ 근거리\ 사진jpg.jpg) no-repeat;
     background-size: cover;
     margin: 0 10px 0 0;
@@ -236,8 +232,10 @@ th, td {
 }
 
 .photo2 {
-    width: 145px;
-    height: 163px;
+    /* width: 145px;
+    height: 163px; */
+    width: 172px;
+    height: 235px;
     background: url(./등\ 원거리\ 사진.jpg) no-repeat;
     background-size: cover;
     outline: 1px solid rgb(153, 153, 153);
@@ -259,7 +257,7 @@ input[type="tel"] {
 input[type="password"] {
     width: 86px;
     text-align: center;
-    padding: 5px;
+    padding: 3px 5px;
 }
 
 .search input[type="text"] {
