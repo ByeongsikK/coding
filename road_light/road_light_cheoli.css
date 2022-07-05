@@ -28,8 +28,8 @@ header {
 }
 
 .logo {
-    width: 162px;
-    height: 90px;
+    width: 130px;
+    height: 72px;
     background: url(./Asset\ 1.png) no-repeat;
     background-size: cover;
 }
@@ -70,14 +70,54 @@ header {
     border-radius: 5px;
 }
 
-.logout {
+.my_bt {
     display: flex;
     align-items: center;
+    padding: 0 0 0 30px;
+}
+
+.my_minwon {
+    width: 116px;
+    height: 41px;
+    background: #0057bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my_minwon a {
+    color: white;
+    text-decoration: none;
+}
+
+.my_minwon strong {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.my_minwon span {
+    font-size: 11px;
+}
+
+.my_minwon a:hover {
+    color: white;
+    text-decoration: 1px solid underline;
+}
+
+.logout {
+    width: 116px;
+    height: 41px;
+    background: #0057bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
 }
 
 .logout a {
     color: white;
-    padding: 30px;
     text-decoration: none;
 }
 
@@ -85,6 +125,7 @@ header {
     color: white;
     text-decoration: 1px solid underline;
 }
+
 /* header */
 
 /* sec1 */

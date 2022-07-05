@@ -52,11 +52,8 @@ header .inner1400 {
 }
 
 header .top_logo {
-    /* width: 328px;
-    height: 68px; */
-    /* background: url(./logo.png) no-repeat; */
-    width: 162px;
-    height: 90px;
+    width: 130px;
+    height: 72px;
     background: url(./Asset\ 1.png) no-repeat;
     background-size: cover;
 }
