@@ -121,6 +121,13 @@ header {
     text-decoration: none;
 }
 
+.logout strong {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .logout a:hover {
     color: white;
     text-decoration: 1px solid underline;
