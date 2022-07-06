@@ -94,15 +94,6 @@ header {
     margin: 0 0 0 30px;
 }
 
-/* .my_minwon {
-    width: 116px;
-    height: 41px;
-    background: #0057bb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .my_minwon a {
     color: white;
     text-decoration: none;
@@ -125,12 +116,6 @@ header {
 }
 
 .logout {
-    /* width: 116px;
-    height: 41px;
-    background: #0057bb;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
     display: none;
 }
 
