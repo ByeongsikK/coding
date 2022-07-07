@@ -150,29 +150,20 @@ header {
     display: flex;
 }
 
+/* .left {
+    width: 950px;
+    height: 814px;
+} */
+
 /* .map iframe {
     height: 814px;
 } */
 
-#map {
-    width: 100%;
-    height: 100%;
-}
+/* #map {
+    width: 950px;
+    height: 814px;
+} */
 
-/* 실험 */
-.map {
-    position: relative;
-}
-.absolute {
-    position: absolute;
-    content: "";
-    width: 50px;
-    height: 50px;
-    background: rgb(3, 3, 3);
-    top: 350px;
-    left: 500px;
-    z-index: 50;
-}
 
 .info_write {
     display: flex;
@@ -222,8 +213,6 @@ table {
 
 
 .sec1 .title { 
-    /* width: 400px;
-    height: 38px; */
     width: 420px;
     height: 40px;
     background: #D0D0D0;
@@ -314,6 +303,8 @@ th, td {
     background-size: cover;
     outline: 1px solid rgb(153, 153, 153);
 }
+
+ /* photo1,2 선택자해서 세트 추가  */
 
 input[type="text"] {
     width: 60px;
@@ -576,9 +567,6 @@ footer .inner1400 {
 }
 
 .footer_logo {
-    /* width: 250px;
-    height: 55px;
-    background: url(./logo.png) no-repeat; */
     width: 112px;
     height: 62px;
     background: url(./Asset\ 1.png) no-repeat;

@@ -6,9 +6,6 @@
     <title>세종시 도로조명관리시스템 -고장신고</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./road_light_singo.css">
-    <!-- <script>
-        alert('가로등 데이터 준비중으로 임시 지도로 대체 되었습니다. 태블릿, 모바일에서 신고정보 입력창은 지도위에 "고장신고" 를 클릭해주세요');
-    </script> -->
 </head>
 
 <body>
@@ -59,7 +56,7 @@
                             <div class="absolute"></div>
                     </div> -->
                     <!-- 카카오지도 div -->
-                    <div id="map" style="width:950px; height:calc(100vh - 280px);"></div>
+                    <div id="map" style="width:950px; height:814px;"></div>
                 </div>
 
                 <div class="right" style="overflow:auto;
@@ -88,7 +85,19 @@
                             <div class="title">
                                 <h2>등 사진 확인</h2>
                             </div>
-                            <div class="photo_box">
+                            <div class="photo_box n1">
+                                <div class="photo1"></div>
+                                <div class="photo2"></div>
+                            </div>
+                            <div class="photo_box n2">
+                                <div class="photo1"></div>
+                                <div class="photo2"></div>
+                            </div>
+                            <div class="photo_box n3">
+                                <div class="photo1"></div>
+                                <div class="photo2"></div>
+                            </div>
+                            <div class="photo_box n4">
                                 <div class="photo1"></div>
                                 <div class="photo2"></div>
                             </div>
@@ -97,7 +106,7 @@
                             <div class="title">
                                 <h2>신고내용</h2>
                             </div>
-                            <table>
+                            <table class="garo1">
                                 <tr>
                                     <th>등종류</th>
                                     <td></td>
@@ -110,6 +119,50 @@
                                     <th>설치주소</th>
                                     <td></td>
                                 </tr>
+                            </table>
+                            <table class="garo2">
+                                <tr>
+                                    <th>등종류</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>표찰번호</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>설치주소</th>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <table class="garo3">
+                                <tr>
+                                    <th>등종류</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>표찰번호</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>설치주소</th>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <table class="garo4">
+                                <tr>
+                                    <th>등종류</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>표찰번호</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>설치주소</th>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            <table>
                                 <tr>
                                     <th>*개인정보<br>
                                         수집 및 <br>
@@ -283,8 +336,6 @@
                     </div>
                 </div>
             </div>
-
-        </div>
         </div>
     </section>
 
@@ -306,7 +357,7 @@
             </div>
             <a href="#" class="ganpyeon_bt">
                 <div class="content">
-                    <stong>간편인증</stong>
+                    <strong>간편인증</strong>
                     <div class="app_icon">
                         <div class="card">
                             <div class="kakao"></div>
@@ -384,29 +435,90 @@
                 $(`.right`).removeClass(`on`);
             });
 
-            // $('.my_minwon').click(function () {
-            //     $(`.sec1`).hide();
-            // });
-
             $(`.ganpyeon_bt`).click(function () {
                 $(`.my_minwon`).hide();
                 $(`.logout`).show();
                 $(`.sec2`).hide();
                 $(`.sec1`).show();
             });
+
+            $(`img[title=가로등1`).click(function () {
+                $(`.logout`).hide();
+            });
+
+            $(`img[title=가로등2`).click(function () {
+                $(`.logout`).hide();
+            });
+
+            $(`img[title=가로등3`).click(function () {
+                $(`.logout`).hide();
+            });
+
+            $(`img[title=가로등4`).click(function () {
+                $(`.logout`).hide();
+            });
+
         });
     </script>
 
     <!-- 카카오지도 스크립트 -->
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9d5164ad5c8a57ea62f616eb6bd84428"></script>
-<script>
-    var mapContainer = document.getElementById('map'),
-    mapOption = { 
-        center: new kakao.maps.LatLng(36.5040736, 127.2494855),
-        level: 3
-    };
-    var map = new kakao.maps.Map(mapContainer, mapOption); 
+
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9d5164ad5c8a57ea62f616eb6bd84428&libraries=services"></script>
+    <script>
+        var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+            mapOption = { 
+                center: new kakao.maps.LatLng(36.46948720, 127.2689554), // 지도의 중심좌표
+                level: 3 // 지도의 확대 레벨
+            };
+        
+        var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+
+        
+        var positions = [
+    {
+        title: '가로등1', 
+        latlng: new kakao.maps.LatLng(36.46850856550445, 127.26871227961624)
+    },
+    {
+        title: '가로등2', 
+        latlng: new kakao.maps.LatLng(36.46948720, 127.2689554)
+    },
+    {
+        title: '가로등3', 
+        latlng: new kakao.maps.LatLng(36.46773580, 127.2678234)
+    },
+    {
+        title: '가로등4',
+        latlng: new kakao.maps.LatLng(36.47088880, 127.2698948)
+    }
+];
+
+// 마커 이미지의 이미지 주소입니다
+var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png"; 
+    
+for (var i = 0; i < positions.length; i ++) {
+    
+    // 마커 이미지의 이미지 크기 입니다
+    var imageSize = new kakao.maps.Size(24, 35); 
+    
+    // 마커 이미지를 생성합니다    
+    var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize); 
+    
+    // 마커를 생성합니다
+    var marker = new kakao.maps.Marker({
+        map: map, // 마커를 표시할 지도
+        position: positions[i].latlng, // 마커를 표시할 위치
+        title : positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
+        image : markerImage // 마커 이미지 
+    });
+    window.setTimeout(function() {
+    map_regist.relayout();
+}, 0);
+}
+
 </script>
+
 
 </body>
 
