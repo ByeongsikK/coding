@@ -448,7 +448,8 @@ table {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 180px);
+    /* height: calc(100vh - 180px); */
+    height: 909px;
 }
 
 .sec3 h1 {
