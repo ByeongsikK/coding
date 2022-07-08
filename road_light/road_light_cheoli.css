@@ -14,6 +14,13 @@
     margin: 0 auto;
 }
 
+section .inner1400 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* header */
 header {
     display: flex;
@@ -129,8 +136,8 @@ header {
 
 /* header */
 
-/* sec1 */
-.sec1 h1 {
+/* sec3 */
+.sec3 h1 {
     height: 80px;
     font-size: 35px;
     display: flex;
@@ -139,12 +146,12 @@ header {
     /* margin: 0 0 20px 0; */
 }
 
-.content_box {
+/* .content_box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .search {
     width: 1021px;
@@ -167,12 +174,12 @@ header {
     margin: 0 10px;
 }
 
-.sec1 h2 {
+.sec3 h2 {
     font-size: 20px;
     margin: 0 0 20px 0;
 }
 
-.sec1 select {
+.sec3 select {
     width: 80px;
     height: 40px;
     margin: 0 10px 0 0;
@@ -180,21 +187,21 @@ header {
     font-size: 12px;
 }
 
-.sec1 select:nth-child(3) {
+.sec3 select:nth-child(3) {
     width: 100px;
     height: 40px;
     margin: 0 10px 0 0;
     border: 1px solid #D2D2D2;
 }
 
-input[type="text"] {
+.sec3 input[type="text"] {
     width: 250px;
     height: 40px;
     border: 1px solid #D2D2D2;
     padding: 0 5px;
 }
 
-input[type="date"] {
+.sec3 input[type="date"] {
     width: 90px;
     height: 25px;
     border: 1px solid #D2D2D2;
@@ -215,7 +222,7 @@ input[type="date"] {
     margin: 0 15px;
 }
 
-input[type="submit"] {
+.sec3 input[type="submit"] {
     width: 80px;
     height: 40px;
     background: #004FA8;
@@ -225,7 +232,7 @@ input[type="submit"] {
     margin: 0 0 0 0;
 }
 
-input[type="submit"]:hover {
+.sec3 input[type="submit"]:hover {
     width: 80px;
     height: 40px;
     background: #0057bb;
@@ -235,25 +242,26 @@ input[type="submit"]:hover {
     margin: 0 0 0 0;
 }
 
-.list .table_title {
+.sec3 .list .table_title {
     width: 100%;
     margin: 30px 0 0 0;
 }
 
-.my_list {
+.sec3 .my_list {
     border-bottom: 2px dotted #5c5c5c;
     padding: 0 0 40px 0;
 }
 
-.list {
+.sec3 .list {
     padding: 0 0 10px 0;
 }
-h3 {
+
+.sec3 h3 {
     font-size: 19px;
     padding: 5px 0 20px 0;
 }
 
-/* sec1 */
+/* sec3 */
 
 
 /* sec2 */
@@ -437,175 +445,6 @@ table {
 /* sec2 */
 
 
-/* sec3 */
-
-.sec3 {
-    display: none;
-}
-
-.sec3 .inner1400 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* height: calc(100vh - 180px); */
-    height: 909px;
-}
-
-.sec3 h1 {
-    font-size: 35px;
-    width: 1000px;
-    border-bottom: 2px solid #E2E1E1;
-    padding-bottom: 20px;
-}
-
-.sec3 h2 {
-    font-size: 20px;
-    width: 1000px;
-    padding-top: 20px;
-}
-
-.notice p {
-    font-size: 16px;
-    padding-top: 10px;
-}
-
-.login_img {
-    background: url(./login_icon.png);
-    /*"https://www.flaticon.com/kr/free-icons/" title="로그인 아이콘">로그인 아이콘  제작자: Pixel perfect - Flaticon*/
-    background-size: cover;
-    width: 100px;
-    height: 100px;
-    margin: 80px 0 0 0;
-}
-
-.ganpyeon_bt {
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bold;
-    width: 450px;
-    height: 130px;
-    background: #3C67D6;
-    margin: 20px 0 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;  
-}
-
-.ganpyeon_bt:hover {
-    text-decoration: 2px solid underline;
-    font-size: 30px;
-    font-weight: bold;
-    width: 450px;
-    height: 130px;
-    background: #3C67D6;
-    margin: 20px 0 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;  
-}
-
-.sec3 .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.app_icon {
-    display: flex;
-}
-
-.card {
-    padding: 10px 5px;
-}
-
-.kakao {
-    width: 35px;
-    height: 35px;
-    background: url(./간편인증아이콘/kakao.png) no-repeat;
-    background-size: cover;
-}
-
-.pass {
-    width: 35px;
-    height: 35px;
-    background: url(./간편인증아이콘/PASS.png) no-repeat;
-    background-size: cover;
-}
-
-.kb {
-    width: 35px;
-    height: 35px;
-    background: url(./간편인증아이콘/KB.png) no-repeat;
-    background-size: cover;
-}
-
-.samsung {
-    width: 35px;
-    height: 35px;
-    background: url(./간편인증아이콘/SAMSUNGPASS.png) no-repeat;
-    background-size: cover;
-}
-
-.naver {
-    width: 35px;
-    height: 35px;
-    background: url(./간편인증아이콘/NAVER.png) no-repeat;
-    background-size: cover;
-}
-
-.shinhan {
-    width: 35px;
-    height: 35px;
-    background: url(./간편인증아이콘/shinhan.png) no-repeat;
-    background-size: cover;
-}
-
-
-.ganpyeon_notice {
-    margin-top: 30px;
-    padding: 30px;
-    width: 800px;
-    height: 264x;
-    background: #f0f5f9;
-    position: relative;
-}
-
-.ganpyeon_notice strong::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 32px;
-    left: 30px;
-    width: 25px;
-    height: 25px;
-    background: url(./check_circle_FILL0_wght400_GRAD0_opsz48.svg) no-repeat;
-    background-size: cover;
-}
-
-.ganpyeon_notice strong {
-    font-size: 20px;
-    padding: 0 0 0 25px;
-}
-
-
-ul {
-    list-style: none;
-}
-
-li {
-    font-size: 15px;
-    padding: 0 0 5px 12px;
-}
-
-.ganpyeon_notice p {
-    font-size: 15px;
-    margin: 10px 0 5px 0;
-}
-/* sec3 */
 
 
 
