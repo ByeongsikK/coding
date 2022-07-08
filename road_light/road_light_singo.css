@@ -151,21 +151,6 @@ header {
     display: flex;
 }
 
-/* .left {
-    width: 950px;
-    height: 814px;
-} */
-
-/* .map iframe {
-    height: 814px;
-} */
-
-/* #map {
-    width: 950px;
-    height: 814px;
-} */
-
-
 .info_write {
     display: flex;
     justify-content: center;
@@ -258,6 +243,24 @@ th, td {
     padding: 10px;
 }
 
+/* 등종류, 표찰번호, 설치주소 */
+.garo1 {
+    display: none;
+}
+
+.garo2 {
+    display: none;
+}
+
+.garo3 {
+    display: none;
+}
+
+.garo4 {
+    display: none;
+}
+/* 등종류, 표찰번호, 설치주소 */
+
 .bt {
     display: flex;
     justify-content: center;
@@ -285,27 +288,73 @@ th, td {
 }
 
 .photo1 {
-    /* width: 145px;
-    height: 163px; */
     width: 172px;
     height: 235px;
-    background: url(./등\ 근거리\ 사진jpg.jpg) no-repeat;
-    background-size: cover;
     margin: 0 10px 0 0;
-    outline: 1px solid rgb(153, 153, 153);
 }
 
 .photo2 {
-    /* width: 145px;
-    height: 163px; */
     width: 172px;
     height: 235px;
-    background: url(./등\ 원거리\ 사진.jpg) no-repeat;
-    background-size: cover;
-    outline: 1px solid rgb(153, 153, 153);
 }
 
- /* photo1,2 선택자해서 세트 추가  */
+/* 포토 세트 */
+.photo_box.n1 .photo1 {
+    background: url(./등\ 근거리\ 사진jpg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.photo_box.n1 .photo2 {
+    background: url(./등\ 원거리\ 사진.jpg) no-repeat;
+    background-size: cover;
+}
+
+.photo_box.n2 .photo1 {
+    background: url(./등\ 근거리\ 사진jpg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.photo_box.n2 .photo2 {
+    background: url(./등\ 원거리\ 사진.jpg) no-repeat;
+    background-size: cover;
+}
+
+.photo_box.n3 .photo1 {
+    background: url(./등\ 근거리\ 사진jpg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.photo_box.n3 .photo2 {
+    background: url(./등\ 원거리\ 사진.jpg) no-repeat;
+    background-size: cover;
+}
+
+.photo_box.n4 .photo1 {
+    background: url(./등\ 근거리\ 사진jpg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.photo_box.n4 .photo2 {
+    background: url(./등\ 원거리\ 사진.jpg) no-repeat;
+    background-size: cover;
+}
+
+.photo_box.n1 {
+    display: none;
+}
+
+.photo_box.n2 {
+    display: none;
+}
+
+.photo_box.n3 {
+    display: none;
+}
+
+.photo_box.n4 {
+    display: none;
+}
+/* 포토 세트 */
 
 input[type="text"] {
     width: 60px;
