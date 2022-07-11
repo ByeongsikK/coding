@@ -1647,7 +1647,6 @@ footer .inner1400 {
     .main .bt {
         padding: 70px;
         flex-direction: column;
-        ;
     }
 
     .main .left_bt {
@@ -1731,10 +1730,6 @@ footer .inner1400 {
 
 
     /* -----sec3----- */
-
-    .select_box {
-        margin: 0 0 15px 0;
-    }
 
     .all_list {
         height: calc(100vh - 710px);
