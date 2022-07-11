@@ -1358,8 +1358,13 @@ footer .inner1400 {
         font-size: 25px;
     }
 
+    .sec2 {
+        height: 900px;
+    }
+
     .sec2 .left {
         width: 100%;
+        height: 100%;
         overflow: hidden;
     }
 
@@ -1374,7 +1379,6 @@ footer .inner1400 {
 
     .sec2 #map {
         width: 100%;
-        height: calc(100vh - 260px);
     }
 
     .sec2 .right {
@@ -1406,7 +1410,7 @@ footer .inner1400 {
     }
 
     .sec3 .search {
-        width: 100%;
+        /* width: 100%; */
         height: 300px;
         margin: 15px 0;
         flex-direction: column;
@@ -1420,12 +1424,12 @@ footer .inner1400 {
         align-items: center;
     }
 
-    .sec3 .sec1 select {
+    .sec3 select {
         width: 90px;
         margin: 0 5px 15px 5px;
     }
 
-    .sec3 .sec1 select:nth-child(3) {
+    .sec3 select:nth-child(3) {
         margin: 0 5px 15px 5px;
     }
 
