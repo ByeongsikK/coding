@@ -1532,8 +1532,8 @@ footer .inner1400 {
     }
 
     .menu {
-        width: 150px;
-        margin: 0 10px 0 0;
+        width: 140px;
+        margin: 0 8px 0 0;
     }
 
     .menu a:hover {
@@ -1547,7 +1547,7 @@ footer .inner1400 {
     }
 
     .my_bt {
-        width: 65px;
+        width: 60px;
         height: 35px;
         margin: 0 0 0 0;
     }
@@ -1674,6 +1674,10 @@ footer .inner1400 {
 
 
     /* -----sec3----- */
+
+    .select_box {
+        margin: 0 0 15px 0;
+    }
 
     .all_list {
         height: calc(100vh - 710px);
