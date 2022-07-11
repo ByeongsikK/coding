@@ -1431,7 +1431,7 @@ footer .inner1400 {
     }
 
     .sec3 .search {
-        /* width: 100%; */
+        width: 100%;
         height: 300px;
         margin: 15px 0;
         flex-direction: column;
