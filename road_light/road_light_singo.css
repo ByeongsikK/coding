@@ -1362,8 +1362,9 @@ footer .inner1400 {
         width: 100%;
     }
     
-    
-
+    .sec1 {
+        height: calc(100vh - 180px);
+    }
 
     /* -----sec1----- */
 
