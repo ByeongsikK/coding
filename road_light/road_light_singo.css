@@ -1536,7 +1536,7 @@ footer .inner1400 {
 @media all and (max-width: 600px) 
 {
     .inner1400 {
-        width: 90%;
+        width: 95%;
     }
 
     /* -----top----- */
@@ -1697,7 +1697,7 @@ footer .inner1400 {
         font-size: 25px;
     }
 
-    .sec2 {
+    .sec1 h2 {
         font-size: 15px;
     }
 
