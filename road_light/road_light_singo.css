@@ -1211,13 +1211,15 @@ footer .inner1400 {
 /* 태블릿 */
 @media all and (max-width: 1000px)
 {
+   
     .inner1400 {
         width: 95%;
     }
 
+    /* -----top----- */
+
     header .top {
     display: flex;
-    justify-content: space-between;
     }
 
     .logo {
@@ -1230,8 +1232,13 @@ footer .inner1400 {
         font-size: 20px;
     }
 
+    .menu a:nth-child(1) {
+        margin: 0 10px 0 0;
+    }
+
     .menu {
-        margin: 0 50px 0 0;
+        width: 260px;
+        margin: 0 15px 0 90px;
     }
 
     .menu a:hover {
@@ -1240,30 +1247,137 @@ footer .inner1400 {
         font-size: 20px;
     }
 
-    .sec1 h1 {
+    .my_bt {
+        width: 100px;
+        margin: 0 10px 0 0;
+    }
+
+    .my_minwon strong, .logout strong {
+        font-size: 13px;
+    }
+
+    /* -----top----- */
+
+
+
+    /* -----main----- */
+
+    .main h1 {
+        /* font-size: 25px; */
+        font-size: 1.7rem;
+    }
+
+    .main h2 {
+        /* font-size: 25px; */
+        font-size: 1.6rem;
+    }
+
+    .main h3 {
+        /* font-size: 14px; */
+        font-size: 0.7rem;
+    }
+
+    .main h4 {
+        /* font-size: 20px; */
+        font-size: 1.6rem;
+    }
+
+    .main .about_roadlight p {
+        /* font-size: 15px; */
+        font-size: 1.0rem;
+    }
+
+    .main .card {
+        padding: 0 5px;
+    }
+
+    .main .card p {
+        /* font-size: 11px; */
+        font-size: 0.5rem;
+    }
+
+    .main .icon_box .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .main .left_bt {
+        width: 204px;
+        height: 139px;
+        /* width: 12.8em; */
+        /* height: 9em; */
+        /* width: 200%; */
+        /* height: 140%; */
+    }
+
+    .main .left_bt:hover {
+        width: 204px;
+        height: 139px;
+        /* width: 200%; */
+    }
+
+    .main .right_bt {
+        width: 204px;
+        height: 139px;
+        /* width: 200%; */
+        /* width: 12.8em; */
+        /* height: 9em; */
+    }
+
+    .main .right_bt:hover {
+        width: 204px;
+        height: 139px;
+        /* width: 200%; */
+    }
+
+    .main .left_bt_box {
+        padding: 0 100px 0 0;
+    }
+
+    .main .singo {
+        width: 51px;
+        height: 44px;
+    }
+
+    .main .cheoli {
+        width: 51px;
+        height: 44px;
+    }
+
+    .main .bt {
+        padding: 100px 0;
+    }
+
+    /* -----main----- */
+
+
+
+    /* -----sec2----- */
+
+    .sec2 h1 {
         font-size: 25px;
     }
 
-    .left {
+    .sec2 .left {
         width: 100%;
         overflow: hidden;
     }
 
-    .content_box {
+    .sec2 .content_box {
         position: relative;
     }
 
-    .map iframe {
-        width: 100%;
-        height: calc(100vh - 260px);
-    }
-
-    /* #map {
+    /* .map iframe {
         width: 100%;
         height: calc(100vh - 260px);
     } */
 
-    .right {
+    .sec2 #map {
+        width: 100%;
+        height: calc(100vh - 260px);
+    }
+
+    .sec2 .right {
         position: fixed;
         right: -1000px;
         overflow: hidden;
@@ -1271,15 +1385,99 @@ footer .inner1400 {
         outline: 1px solid rgb(160, 160, 160);
     }
 
-    .right.on {
+    .sec2 .right.on {
         position: absolute;
         right: 0;
         background: #fff;
     }
 
-    .right .pyochal_search {
+    .sec2 .right .pyochal_search {
         padding: 5px 0 0 0;
     }
+
+    /* -----sec2----- */
+
+
+
+    /* -----sec3----- */
+
+    .sec3 h1 {
+        font-size: 25px;
+    }
+
+    .sec3 .search {
+        width: 100%;
+        height: 300px;
+        margin: 15px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec3 .search_input {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec3 .sec1 select {
+        width: 90px;
+        margin: 0 5px 15px 5px;
+    }
+
+    .sec3 .sec1 select:nth-child(3) {
+        margin: 0 5px 15px 5px;
+    }
+
+    .sec3 .input_box {
+        width: 346px;
+        order: 1;
+        margin: 0 0 15px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec3 input[type="text"] {
+        width: 346px;
+    }
+
+    .sec3 .date {
+        width: 346px;
+        margin: 0 0 15px 0;
+    }
+
+    .sec3 .bt {
+        order: 3;
+    }
+
+    .sec3 input[type="submit"] {
+        width: 130px;
+        height: 40px;
+    }
+    
+    .sec3 input[type="submit"]:hover {
+        width: 130px;
+        height: 40px;
+    }
+
+    .sec3 th {
+        font-size: 12px;
+    }
+
+    .sec3 td {
+        font-size: 12px;         
+    }
+
+    .sec3 {
+        /* height: 550px; */
+        height: 1300px;
+    }
+
+    /* -----sec3----- */
+
+
+
+    /* -----footer----- */
 
     .footer_logo {
         margin: 0 20px 0 0;
@@ -1298,6 +1496,9 @@ footer .inner1400 {
         top: 3px;
         right: -6px;
     }
+
+    /* -----footer----- */
+
 }
 /* 태블릿 */
 
@@ -1305,13 +1506,21 @@ footer .inner1400 {
 /* 모바일 */
 @media all and (max-width: 600px) 
 {
+    .inner1400 {
+        width: 90%;
+    }
+
+    /* -----top----- */
+
     header {
         height: 80px;
     }
 
     .logo {
-        width: 101px;
-        height: 56px;
+        /* width: 101px;
+        height: 56px; */
+        width: 90px;
+        height: 50px;
         margin: 0 30px 0 0;
     }
 
@@ -1323,22 +1532,274 @@ footer .inner1400 {
     }
 
     .menu {
+        width: 150px;
         margin: 0 10px 0 0;
     }
 
     .menu a:hover {
-        width: 80px;
+        width: 70px;
         height: 39px;
         font-size: 15px;
     }
 
     .menu a:nth-child(1) {
-        margin: 0 10px 0 0;
+        margin: 0 5px 0 0;
     }
 
-    .sec1 h1 {
+    .my_bt {
+        width: 70px;
+        height: 35px;
+        margin: 0 0 0 0;
+    }
+
+    .my_minwon strong, .logout strong {
+        font-size: 6px;
+    }
+
+    .my_minwon span {
+        font-size: 5px;
+    }
+
+    /* -----top----- */
+
+    /* -----main----- */
+
+    .main {
+        height: 1100px;
+    }
+
+    .main h1 {
+        font-size: 1.6rem;
+        padding: 100px 0 50px 0;
+    }
+
+    .main h2 {
+        font-size: 1.2rem
+    }
+
+    .main h3 {
+        font-size: 0.4rem;
+        width: 95px;
+    }
+
+    .main h4 {
+        font-size: 1.0rem;
+    }
+
+    .main .about_roadlight p {
+        font-size: 0.85rem;
+    }
+
+    .main .card_list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .cardbox1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .cardbox2 {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 25px 0;
+    }
+
+    .main .card {
+        padding: 5px 5px;
+    }
+
+    .main .card p {
+        display: none;
+    }
+
+    .main .icon_box .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .main .bt {
+        padding: 70px;
+        flex-direction: column;
+        ;
+    }
+
+    .main .left_bt {
+        width: 200px;
+        height: 120px;
+    }
+
+    .main .left_bt:hover {
+        width: 200px;
+        height: 120px;
+    }
+
+    .main .right_bt {
+        width: 200px;
+        height: 120px;
+    }
+
+    .main .right_bt:hover {
+        width: 200px;
+        height: 120px;
+    }
+
+    .main .left_bt_box {
+        padding: 0 0 50px 0;
+    }
+
+    .main .singo {
+        width: 41px;
+        height: 34px;
+    }
+
+    .main .cheoli {
+        width: 41px;
+        height: 34px;
+    }
+
+    /* -----main----- */
+
+
+
+    /* -----sec2----- */
+
+    .sec2 h1 {
         font-size: 20px;
     }
+
+    /* -----sec2----- */
+
+
+
+    /* -----sec3----- */
+
+    .all_list {
+        height: calc(100vh - 710px);
+    }
+
+    .sec3 h1 {
+        font-size: 20px;
+    }
+
+    .sec3 input[type="text"] {
+        width: 300px;
+    }
+
+    .sec3 .date {
+        width: 320px;
+    }
+
+    .sec3 tr th:nth-child(2) {
+        display: none;
+    }
+
+    .sec3 tr th:nth-child(3) {
+        display: none;
+    }
+
+    .sec3 tr th:nth-child(7) {
+        display: none;
+    }
+
+    .sec3 tr th:nth-child(8) {
+        display: none;
+    }
+
+    .sec3 tr td:nth-child(2) {
+        display: none;
+    }
+
+    .sec3 tr td:nth-child(3) {
+        display: none;
+    }
+
+    .sec3 tr td:nth-child(7) {
+        display: none;
+    }
+
+    .sec3 tr td:nth-child(8) {
+        display: none;
+    }
+
+    .sec3 th {
+        font-size: 11px;
+    }
+    
+    .sec3 td {
+        font-size: 11px;
+    }
+
+    .lamp_red {
+        font-size: 10px;
+        text-align: center;
+        line-height: 22px;
+        width: 45px;
+        height: 22px;
+        background: #F30000;
+        border-radius: 5px;
+    }
+    
+    .lamp_orange {
+        font-size: 10px;
+        text-align: center;
+        line-height: 22px;
+        width: 45px;
+        height: 22px;
+        background: #FF9900;
+        border-radius: 5px;
+    }
+    
+    .lamp_green {
+        font-size: 10px;
+        text-align: center;
+        line-height: 22px;
+        width: 45px;
+        height: 22px;
+        background: #00C314;
+        border-radius: 5px;
+    }
+
+    .pgnum {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        margin: 0 0;
+        text-decoration: none;
+        color: rgb(131, 131, 131);
+    }
+
+    .pgnum:hover {
+        font-size: 15px;
+        width: 20px;
+        height: 20px;
+        border: 1px solid rgb(211, 211, 211);
+    }
+    
+    .pgnum.on {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 21px;
+        height: 21px;
+        margin: 0 0;
+        text-decoration: none;
+        font-style: bold;
+        background: #004FA8;
+        color: #fff;
+        border: 1px solid rgb(211, 211, 211);
+    }
+
+    /* -----sec3----- */
+
+
+
+    /* -----footer----- */
 
     footer {
         height: 200px;
@@ -1347,6 +1808,7 @@ footer .inner1400 {
     .footer_logo {
         width: 101px;
         height: 56px;
+        margin: 0 0 10px 10px;
     }
 
     footer .inner1400 {
@@ -1377,4 +1839,6 @@ footer .inner1400 {
         top: 2px;
         right: -6px;
     }
+
+    /* -----footer----- */
 }
