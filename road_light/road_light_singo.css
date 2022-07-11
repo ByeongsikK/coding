@@ -1430,6 +1430,10 @@ footer .inner1400 {
         font-size: 25px;
     }
 
+    .sec3 .content_box {
+        width: 100%;
+    }
+
     .sec3 .search {
         width: 100%;
         height: 300px;
@@ -1446,7 +1450,7 @@ footer .inner1400 {
     }
 
     .sec3 select {
-        width: 90px;
+        width: 100px;
         margin: 0 5px 15px 5px;
     }
 
@@ -1733,6 +1737,10 @@ footer .inner1400 {
 
     .all_list {
         height: calc(100vh - 710px);
+    }
+
+    .sec3 .search {
+        width: 100%;
     }
 
     .sec3 h1 {
