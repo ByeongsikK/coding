@@ -1688,6 +1688,38 @@ footer .inner1400 {
 
 
 
+    /* -----sec1----- */
+
+    .sec1 h1 {
+        font-size: 25px;
+    }
+
+    .sec2 {
+        font-size: 15px;
+    }
+
+    .ganpyeon_bt {
+        width: 300px;
+        height: 100px;
+    }
+
+    .sec1 .content strong {
+        font-size: 20px;
+    }
+
+    .ganpyeon_notice {
+        width: 100%;
+    }
+    
+    .sec1 {
+        /* height: calc(100vh - 280px); */
+        height: 100%;
+    }
+
+    /* -----sec1----- */
+
+
+
     /* -----sec2----- */
 
     .sec2 h1 {
