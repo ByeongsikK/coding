@@ -42,7 +42,6 @@ $(document).ready(function () {
 
                         var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
-
                         var positions = [{
                                 title: '가로등1',
                                 latlng: new kakao.maps.LatLng(36.46994680, 127.2691494)
