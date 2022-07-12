@@ -706,42 +706,42 @@ li {
 
 /* 포토 세트 */
 .photo_box.n1 .photo1 {
-    background: url(./등\ 근거리\ 사진jpg.jpg) no-repeat;
+    background: url(./가로등사진/가로등38표찰.png) no-repeat;
     background-size: cover;
 }
 
 .photo_box.n1 .photo2 {
-    background: url(./등\ 원거리\ 사진.jpg) no-repeat;
+    background: url(./가로등사진/가로등38.png) no-repeat;
     background-size: cover;
 }
 
 .photo_box.n2 .photo1 {
-    background: url(./등\ 근거리\ 사진jpg.jpg) no-repeat;
+    background: url(./가로등사진/가로등35표찰.png) no-repeat;
     background-size: cover;
 }
 
 .photo_box.n2 .photo2 {
-    background: url(./등\ 원거리\ 사진.jpg) no-repeat;
+    background: url(./가로등사진/가로등35.png) no-repeat;
     background-size: cover;
 }
 
 .photo_box.n3 .photo1 {
-    background: url(./등\ 근거리\ 사진jpg.jpg) no-repeat;
+    background: url(./가로등사진/가로등11-6표찰.png) no-repeat;
     background-size: cover;
 }
 
 .photo_box.n3 .photo2 {
-    background: url(./등\ 원거리\ 사진.jpg) no-repeat;
+    background: url(./가로등사진/가로등11-6.png) no-repeat;
     background-size: cover;
 }
 
 .photo_box.n4 .photo1 {
-    background: url(./등\ 근거리\ 사진jpg.jpg) no-repeat;
+    background: url(./가로등사진/가로등52표찰.png) no-repeat;
     background-size: cover;
 }
 
 .photo_box.n4 .photo2 {
-    background: url(./등\ 원거리\ 사진.jpg) no-repeat;
+    background: url(./가로등사진/가로등52.png) no-repeat;
     background-size: cover;
 }
 
@@ -1399,7 +1399,7 @@ footer .inner1400 {
     } */
 
     .sec2 #map {
-        width: 100%;
+        width: 90%;
     }
 
     .sec2 .right {
@@ -1727,6 +1727,11 @@ footer .inner1400 {
 
     .sec2 h1 {
         font-size: 20px;
+    }
+
+    .sec2 #map {
+        width: 100%;
+        height: 100px;
     }
 
     /* -----sec2----- */

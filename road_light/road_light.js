@@ -162,23 +162,7 @@ $(document).ready(function () {
                 var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
                 
-                function resizeMap() {
-                    var mapContainer = document.getElementById('map');
-                    mapContainer.style.width = '650px';
-                    mapContainer.style.height = '650px'; 
-                }
-                
-                function relayout() {    
-                    
-                    // 지도를 표시하는 div 크기를 변경한 이후 지도가 정상적으로 표출되지 않을 수도 있습니다
-                    // 크기를 변경한 이후에는 반드시  map.relayout 함수를 호출해야 합니다 
-                    // window의 resize 이벤트에 의한 크기변경은 map.relayout 함수가 자동으로 호출됩니다
-                    map.relayout();
-                }
-
-
-
-
+            
 
                 var positions = [{
                         title: '가로등1',
@@ -1333,6 +1317,7 @@ $(document).ready(function () {
                         title: positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
                         image: markerImage // 마커 이미지 
                     });
+                   
                 };
                 // -----카카오 맵-----
 
@@ -1397,6 +1382,20 @@ $(document).ready(function () {
     // -----처리현황-----
 
 
+
+
+
+    // -----신고페이지 태블릿, 모바일 신고페이지 노출-----
+    
+    $(`#map #img`).click(function () {
+        $(`.sec3 .right`).addClass(`on`);
+    });
+
+    $(`p:last-of-type`).click(function () {
+        $(`.sec3 .right`).removeClass(`on`);
+    });
+    
+    // -----신고페이지 태블릿, 모바일 신고페이지 노출-----
 
 
 
