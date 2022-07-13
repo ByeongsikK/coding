@@ -107,6 +107,7 @@ $(document).ready(function () {
     // ----- 지도 마커 클릭이벤트----- 
 
     setTimeout(function(){ map.relayout(); }, 0);
+    kakao.maps.disableHD();
 
     }
     
