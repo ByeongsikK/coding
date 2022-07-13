@@ -1155,6 +1155,12 @@ $(document).ready(function () {
 
                     var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
+                    mapContainer.style.width = '950px';
+                    mapContainer.style.height = '814px';
+
+                    map.relayout();
+                    
+
 
                     var positions = [{
                             title: '가로등1',
