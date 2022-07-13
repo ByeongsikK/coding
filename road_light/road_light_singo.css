@@ -1747,11 +1747,11 @@ footer .inner1400 {
     }
 
     .sec2 {
-        height: calc(100vh - 250px);
+        height: calc(100vh - 280px);
     }
 
     .sec2 .content_box {
-        height: 55%;
+        height: 50%;
     }
 
 
