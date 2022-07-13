@@ -131,6 +131,7 @@ $(document).ready(function () {
         } else {
             $('.sec2').show();
             $(`#map`).show(function () {
+
                 var mapContainer = document.getElementById('map'),
                     // 지도를 표시할 div 
         
@@ -138,9 +139,11 @@ $(document).ready(function () {
                         center: new kakao.maps.LatLng(36.46850856550445, 127.26871227961624), // 지도의 중심좌표
                         level: 3 // 지도의 확대 레벨
                     };
+
+
         
                 var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
-        
+  
         
                 var positions = [{
                         title: '가로등1',
@@ -410,6 +413,5 @@ $(document).ready(function () {
      });
  
      // -----처리현황 페이징 버튼-----
-
 
 });

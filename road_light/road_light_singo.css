@@ -1370,9 +1370,6 @@ footer .inner1400 {
 
 
 
-
-
-
     /* -----sec2----- */
 
     .sec2 h1 {
@@ -1398,10 +1395,7 @@ footer .inner1400 {
         height: calc(100vh - 260px);
     } */
 
-    .sec2 #map {
-        width: 90%;
-    }
-
+    
     .sec2 .right {
         position: fixed;
         right: -1000px;
@@ -1729,10 +1723,6 @@ footer .inner1400 {
         font-size: 20px;
     }
 
-    .sec2 #map {
-        width: 100%;
-        height: 100px;
-    }
 
     /* -----sec2----- */
 
