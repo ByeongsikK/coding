@@ -171,6 +171,7 @@ header {
     /* background: url(./도로사진/우측\ 가로등-lightness.png) no-repeat; */
     background: url(./세종시도로사진조정3.png) no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 .main .inner1400 {
