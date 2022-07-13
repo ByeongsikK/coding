@@ -1404,7 +1404,7 @@ footer .inner1400 {
     .sec2 .content_box {
         position: relative;
         width: 100%;
-        height: 50%;
+        height: 60%;
         justify-content: center;
     }
 
@@ -1747,7 +1747,11 @@ footer .inner1400 {
     }
 
     .sec2 {
-        height: calc(100vh - 280px);
+        height: calc(100vh - 250px);
+    }
+
+    .sec2 .content_box {
+        height: 55%;
     }
 
 
