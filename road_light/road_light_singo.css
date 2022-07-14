@@ -581,9 +581,23 @@ li {
     flex-direction: column;
 }
 
+.persnal_info {
+    overflow:auto; 
+    width:230px; 
+    height:100px; 
+    padding: 8px;
+}
+
+
 .sec2 table {
     padding: 0 5px;
     border-collapse: collapse;
+}
+
+.sec2 .right {
+    width: 500px;
+    height: 814px;
+    overflow:auto;
 }
 
 .sec2 .right h2 {
@@ -1422,17 +1436,20 @@ footer .inner1400 {
     .sec2 .right {
         position: absolute;
         right: -1000px;
-        overflow: hidden;
+        /* overflow: hidden; */
+        overflow: auto;
         z-index: 10;
-        outline: 1px solid rgb(160, 160, 160);
+        /* outline: 1px solid rgb(160, 160, 160); */
         transition: 0.5s;
     }
 
     .sec2 .right.on {
         position: absolute;
-        right: 0;
+        right: -14px;
         background: #fff;
+        height: 125%;
     }
+
 
     .sec2 .right .pyochal_search {
         padding: 5px 0 0 0;
@@ -1752,7 +1769,107 @@ footer .inner1400 {
     }
 
     .sec2 .content_box {
-        height: 60%;
+        /* height: 60%; */
+        height: 370px;
+
+    }
+
+    .sec2 .right {
+        width: 363px;
+        /* height: 100%; */
+        overflow: auto;
+    }
+
+    .sec2 .right.on {
+        position: absolute;
+        right: 0;
+        background: #fff;
+        height: 103%;
+    }
+
+    .sec2 .info_write {
+        padding: 0;
+    }
+
+    .sec2 .title {
+        width: 355px;
+        overflow: auto;
+    }
+
+    .sec2 th {
+        width: 74px;
+    }
+
+    .sec2 td {
+        width: 286px;
+    }
+
+    .photo1 {
+        width: 140px;
+        height: 200px;
+        
+    }
+    
+    .photo2 {
+        width: 140px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .persnal_info {
+        overflow:auto; 
+        width:200px; 
+        height:100px; 
+        padding: 8px;
+    }
+
+    .sec2 .search input[type="text"] {
+        width: 178px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .sec2 input[type="text"] {
+        width: 50px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .mobile {
+        width: 50px;
+        text-align: center;
+        padding: 3px 3px;
+        font-size: 12px;
+    }
+
+    .tel {
+        width: 50px;
+        text-align: center;
+        padding: 3px 3px;
+        font-size: 12px;
+    }
+
+    .mobilebox, .telbox {
+        font-size: 12px;
+    }
+
+    .sec2 th, .sec2 td {
+        padding: 5px;
+    }
+
+    .problem {
+        padding: 3px;
+        width: 120px;
+        font-size: 12px;
+    }
+    
+    .sec2 textarea {
+        font-size: 12px;
+    }
+
+    .sec2 input[type="password"] {
+        padding: 3px 3px;
+        font-size: 12px;
     }
 
 
