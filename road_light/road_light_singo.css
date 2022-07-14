@@ -1439,7 +1439,7 @@ footer .inner1400 {
         /* overflow: hidden; */
         overflow: auto;
         z-index: 10;
-        /* outline: 1px solid rgb(160, 160, 160); */
+        outline: 1px solid rgb(160, 160, 160);
         transition: 0.5s;
     }
 
@@ -1784,6 +1784,7 @@ footer .inner1400 {
         position: absolute;
         right: -3%;
         background: #fff;
+        outline: none;
         height: 103%;
     }
 

@@ -39,6 +39,8 @@ $(document).ready(function () {
             adress: '세종특별자치시 대평동 574-2',
             photo1: 'url(./가로등사진/가로등38표찰.png) 50% 50% / cover no-repeat',
             photo2: 'url(./가로등사진/가로등38.png) 50% 50% / cover no-repeat',
+            tdname: '가로등',
+            pyochal: '38',
         },
         {
             title: '가로등2',
@@ -46,6 +48,8 @@ $(document).ready(function () {
             adress: '세종특별자치시 대평동 574-2',
             photo1: 'url(./가로등사진/가로등35표찰.png) 50% 50% / cover no-repeat',
             photo2: 'url(./가로등사진/가로등35.png) 50% 50% / cover no-repeat',
+            tdname: '가로등',
+            pyochal: '35',
         },
         {
             title: '가로등3',
@@ -53,14 +57,17 @@ $(document).ready(function () {
             adress: '세종특별자치시 대평동 574-2',
             photo1: 'url(./가로등사진/가로등11-6표찰.png) 50% 50% / cover no-repeat',
             photo2: 'url(./가로등사진/가로등11-6.png) 50% 50% / cover no-repeat',
+            tdname: '가로등',
+            pyochal: '11-6',
         },
-        {
-            title: '가로등4',
-            latlng: new kakao.maps.LatLng(36.47088880, 127.2698948),
-            adress: '세종특별자치시 대평동 574-2',
-            photo1: 'url(./가로등사진/가로등52표찰.png) 50% 50% / cover no-repeat',
-            photo2: 'url(./가로등사진/가로등52.png) 50% 50% / cover no-repeat',
-        }
+        // {
+        //     title: '가로등4',
+        //     latlng: new kakao.maps.LatLng(36.47088880, 127.2698948),
+        //     adress: '세종특별자치시 대평동 574-2',
+        //     photo1: 'url(./가로등사진/가로등52표찰.png) 50% 50% / cover no-repeat',
+        //     photo2: 'url(./가로등사진/가로등52.png) 50% 50% / cover no-repeat',
+        //     tdname: '가로등',
+        // }
     ];
 
         // var positions = [ // 마커의 위치
@@ -132,6 +139,9 @@ $(document).ready(function () {
                         console.log($('.photo_box > .photo1'))
                         $('.photo_box > .photo1').css({"background":positions[i].photo1});
                         $('.photo_box > .photo2').css({"background":positions[i].photo2});
+                        $('.garo td')[0].innerText = positions[i].tdname;
+                        $('.garo td')[1].innerText = positions[i].pyochal;
+                        $('.garo td')[2].innerText = positions[i].adress;                      
                     }
                 }
 
