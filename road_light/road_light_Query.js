@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-
+    
 
     $.kakaomap = function () {
         kakao.maps.disableHD();
@@ -200,6 +200,7 @@ $(document).ready(function () {
     $(`.menu a:first`).click(function () {      
         $(`body section`).hide();
         if (login === false) {
+            $('.right').removeClass('on');
             $(`.sec1`).show();
         } else {
             $('.sec2').show();
@@ -210,6 +211,7 @@ $(document).ready(function () {
 
 
     $(`.left_bt`).click(function () {
+        $('.right').removeClass('on');
         $(`body section`).hide();
         if (login === false) {
             $(`.sec1`).show();
@@ -221,12 +223,14 @@ $(document).ready(function () {
     });
 
     $(`.menu a:last`).click(function () {
+        $('.right').removeClass('on');
         $(`body section`).hide();
         $(`.sec3`).show();
         pgnum = 2
     });
 
     $(`.right_bt`).click(function () {
+        $('.right').removeClass('on');
         $(`body section`).hide();
         $(`.sec3`).show();
         pgnum = 2
@@ -234,6 +238,7 @@ $(document).ready(function () {
 
 
     $(`.my_minwon`).click(function () {
+        $('.right').removeClass('on');
         $('body > section').hide();
         if (login === false) {
             $(`.sec1`).show();
@@ -242,6 +247,7 @@ $(document).ready(function () {
 
     // --로그인 버튼
     $(`.ganpyeon_bt`).click(function () {
+        $('.right').removeClass('on');
         $(`.my_minwon`).hide();
         $(`.logout`).show();
         $(`.sec1`).hide();
@@ -268,6 +274,7 @@ $(document).ready(function () {
         $('.main').show();
         $('.logout').hide();
         $('.my_minwon').show();
+        $('.right').removeClass('on');
         pgnum = 2
     });
 
