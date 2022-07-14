@@ -1434,6 +1434,7 @@ footer .inner1400 {
         right: -1000px;
         /* overflow: hidden; */
         overflow: auto;
+        overflow-x: hidden;
         z-index: 10;
         outline: 1px solid rgb(160, 160, 160);
         transition: 0.5s;
@@ -1776,6 +1777,7 @@ footer .inner1400 {
         width: 365px;
         /* height: 100%; */
         overflow: auto;
+        overflow-x: hidden;
     }
 
     .sec2 .right.on {
@@ -1784,7 +1786,6 @@ footer .inner1400 {
         background: #fff;
         outline: none;
         height: 103%;
-        overflow-x: hidden;
     }
 
     .sec2 .info_write {
