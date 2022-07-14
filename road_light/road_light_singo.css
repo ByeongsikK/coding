@@ -1775,14 +1775,14 @@ footer .inner1400 {
     }
 
     .sec2 .right {
-        width: 363px;
+        width: 365px;
         /* height: 100%; */
         overflow: auto;
     }
 
     .sec2 .right.on {
         position: absolute;
-        right: -2%;
+        right: -2.5%;
         background: #fff;
         height: 103%;
     }
