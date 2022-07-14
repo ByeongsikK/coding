@@ -244,6 +244,8 @@ $(document).ready(function () {
     $(`.ganpyeon_bt`).click(function () {
         $(`.my_minwon`).hide();
         $(`.logout`).show();
+        $(`.sec1`).hide();
+        $('.sec3').show();
         login = true;
         if (pgnum === 1) {
             $('body > section').hide();
