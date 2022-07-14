@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+
+
     $.kakaomap = function () {
         kakao.maps.disableHD();
 
@@ -60,22 +62,22 @@ $(document).ready(function () {
             tdname: '가로등',
             pyochal: '11-6',
         },
-        // {
-        //     title: '가로등4',
-        //     latlng: new kakao.maps.LatLng(36.47088880, 127.2698948),
-        //     adress: '세종특별자치시 대평동 574-2',
-        //     photo1: 'url(./가로등사진/가로등52표찰.png) 50% 50% / cover no-repeat',
-        //     photo2: 'url(./가로등사진/가로등52.png) 50% 50% / cover no-repeat',
-        //     tdname: '가로등',
-        // }
-    ];
+            // {
+            //     title: '가로등4',
+            //     latlng: new kakao.maps.LatLng(36.47088880, 127.2698948),
+            //     adress: '세종특별자치시 대평동 574-2',
+            //     photo1: 'url(./가로등사진/가로등52표찰.png) 50% 50% / cover no-repeat',
+            //     photo2: 'url(./가로등사진/가로등52.png) 50% 50% / cover no-repeat',
+            //     tdname: '가로등',
+            // }
+        ];
 
         // var positions = [ // 마커의 위치
         //         new kakao.maps.LatLng(33.44975, 126.56967),
         //         new kakao.maps.LatLng(33.450579, 126.56956),
         //         new kakao.maps.LatLng(33.4506468, 126.5707)
         //     ],
-            selectedMarker = null; // 클릭한 마커를 담을 변수
+        selectedMarker = null; // 클릭한 마커를 담을 변수
 
         // 지도 위에 마커를 표시합니다
         for (var i = 0, len = positions.length; i < len; i++) {
@@ -131,17 +133,17 @@ $(document).ready(function () {
 
             // 마커에 click 이벤트를 등록합니다
             kakao.maps.event.addListener(marker, 'click', function () {
-                
+
                 $('.right').addClass('on');
 
-                for(i=0;i<positions.length;i++){
-                    if (marker.id==i) {
+                for (i = 0; i < positions.length; i++) {
+                    if (marker.id == i) {
                         console.log($('.photo_box > .photo1'))
-                        $('.photo_box > .photo1').css({"background":positions[i].photo1});
-                        $('.photo_box > .photo2').css({"background":positions[i].photo2});
+                        $('.photo_box > .photo1').css({ "background": positions[i].photo1 });
+                        $('.photo_box > .photo2').css({ "background": positions[i].photo2 });
                         $('.garo td')[0].innerText = positions[i].tdname;
                         $('.garo td')[1].innerText = positions[i].pyochal;
-                        $('.garo td')[2].innerText = positions[i].adress;                      
+                        $('.garo td')[2].innerText = positions[i].adress;
                     }
                 }
 
@@ -179,11 +181,11 @@ $(document).ready(function () {
         }
     }
 
-    window.addEventListener('resize',function() {
+    window.addEventListener('resize', function () {
         $.kakaomap();
     })
 
-    $('input[type=reset]').click(function(){
+    $('input[type=reset]').click(function () {
         $('.right').removeClass('on');
     })
 
@@ -194,6 +196,7 @@ $(document).ready(function () {
 
     $(`.my_list`).hide();
 
+
     $(`.menu a:first`).click(function () {
         $(`body section`).hide();
         if (login === false) {
@@ -201,7 +204,6 @@ $(document).ready(function () {
         } else {
             $('.sec2').show();
             $.kakaomap();
-
         }
         pgnum = 1
     });
