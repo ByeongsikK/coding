@@ -197,7 +197,7 @@ $(document).ready(function () {
     $(`.my_list`).hide();
 
 
-    $(`.menu a:first`).click(function () {
+    $(`.menu a:first`).click(function () {      
         $(`body section`).hide();
         if (login === false) {
             $(`.sec1`).show();
@@ -205,7 +205,7 @@ $(document).ready(function () {
             $('.sec2').show();
             $.kakaomap();
         }
-        pgnum = 1
+        pgnum = 1       
     });
 
 
@@ -268,6 +268,7 @@ $(document).ready(function () {
         $('.main').show();
         $('.logout').hide();
         $('.my_minwon').show();
+        pgnum = 2
     });
 
 
