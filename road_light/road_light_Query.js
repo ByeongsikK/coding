@@ -62,21 +62,9 @@ $(document).ready(function () {
             tdname: '가로등',
             pyochal: '11-6',
         },
-            // {
-            //     title: '가로등4',
-            //     latlng: new kakao.maps.LatLng(36.47088880, 127.2698948),
-            //     adress: '세종특별자치시 대평동 574-2',
-            //     photo1: 'url(./가로등사진/가로등52표찰.png) 50% 50% / cover no-repeat',
-            //     photo2: 'url(./가로등사진/가로등52.png) 50% 50% / cover no-repeat',
-            //     tdname: '가로등',
-            // }
-        ];
+    ];
 
-        // var positions = [ // 마커의 위치
-        //         new kakao.maps.LatLng(33.44975, 126.56967),
-        //         new kakao.maps.LatLng(33.450579, 126.56956),
-        //         new kakao.maps.LatLng(33.4506468, 126.5707)
-        //     ],
+    
         selectedMarker = null; // 클릭한 마커를 담을 변수
 
         // 지도 위에 마커를 표시합니다
@@ -147,7 +135,7 @@ $(document).ready(function () {
                     }
                 }
 
-                // if (marker.id = i)
+                
                 // 클릭된 마커가 없고, click 마커가 클릭된 마커가 아니면
                 // 마커의 이미지를 클릭 이미지로 변경합니다
                 if (!selectedMarker || selectedMarker !== marker) {

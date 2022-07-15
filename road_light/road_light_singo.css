@@ -172,7 +172,6 @@ header {
 
 .main {
     height: 1200px;
-    /* background: url(./도로사진/우측\ 가로등-lightness.png) no-repeat; */
     background: url(./세종시도로사진조정3.png) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -732,64 +731,6 @@ li {
     margin: 0 10px 0 0;
 }
 
-/* 포토 세트 */
-.photo_box.n1 .photo1 {
-    /* background: url(./가로등사진/가로등38표찰.png) no-repeat; */
-    background-size: cover;
-}
-
-.photo_box.n1 .photo2 {
-    /* background: url(./가로등사진/가로등38.png) no-repeat; */
-    background-size: cover;
-}
-
-.photo_box.n2 .photo1 {
-    /* background: url(./가로등사진/가로등35표찰.png) no-repeat; */
-    background-size: cover;
-}
-
-.photo_box.n2 .photo2 {
-    /* background: url(./가로등사진/가로등35.png) no-repeat; */
-    background-size: cover;
-}
-
-.photo_box.n3 .photo1 {
-    /* background: url(./가로등사진/가로등11-6표찰.png) no-repeat; */
-    background-size: cover;
-}
-
-.photo_box.n3 .photo2 {
-    /* background: url(./가로등사진/가로등11-6.png) no-repeat; */
-    background-size: cover;
-}
-
-.photo_box.n4 .photo1 {
-    /* background: url(./가로등사진/가로등52표찰.png) no-repeat; */
-    background-size: cover;
-}
-
-.photo_box.n4 .photo2 {
-    /* background: url(./가로등사진/가로등52.png) no-repeat; */
-    background-size: cover;
-}
-
-.photo_box.n1 {
-    display: none;
-}
-
-.photo_box.n2 {
-    display: none;
-}
-
-.photo_box.n3 {
-    display: none;
-}
-
-.photo_box.n4 {
-    display: none;
-}
-/* 포토 세트 */
-
 .sec2 input[type="text"] {
     width: 60px;
     padding: 5px;
@@ -870,13 +811,6 @@ li {
     justify-content: center;
     /* margin: 0 0 20px 0; */
 }
-
-/* .content_box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
 
 .sec3 .search {
     width: 1021px;
@@ -975,7 +909,6 @@ li {
 .sec3 .my_list {
     border-bottom: 2px dotted #5c5c5c;
     padding: 0 0 40px 0;
-    /* display: none; */
 }
 
 .sec3 .list {
@@ -1161,7 +1094,6 @@ li {
 
 /* -----footer----- */
 footer {
-    /* background-color: #484848; */
     background-color: #2b2b2b;
     height: 80px;
     display: flex;
@@ -1291,27 +1223,22 @@ footer .inner1400 {
     /* -----main----- */
 
     .main h1 {
-        /* font-size: 25px; */
         font-size: 1.7rem;
     }
 
     .main h2 {
-        /* font-size: 25px; */
         font-size: 1.6rem;
     }
 
     .main h3 {
-        /* font-size: 14px; */
         font-size: 0.7rem;
     }
 
     .main h4 {
-        /* font-size: 20px; */
         font-size: 1.6rem;
     }
 
     .main .about_roadlight p {
-        /* font-size: 15px; */
         font-size: 1.0rem;
     }
 
@@ -1320,7 +1247,6 @@ footer .inner1400 {
     }
 
     .main .card p {
-        /* font-size: 11px; */
         font-size: 0.5rem;
     }
 
@@ -1332,30 +1258,21 @@ footer .inner1400 {
     .main .left_bt {
         width: 204px;
         height: 139px;
-        /* width: 12.8em; */
-        /* height: 9em; */
-        /* width: 200%; */
-        /* height: 140%; */
     }
 
     .main .left_bt:hover {
         width: 204px;
         height: 139px;
-        /* width: 200%; */
     }
 
     .main .right_bt {
         width: 204px;
         height: 139px;
-        /* width: 200%; */
-        /* width: 12.8em; */
-        /* height: 9em; */
     }
 
     .main .right_bt:hover {
         width: 204px;
         height: 139px;
-        /* width: 200%; */
     }
 
     .main .left_bt_box {
@@ -1436,7 +1353,6 @@ footer .inner1400 {
     .sec2 .right {
         position: absolute;
         right: -1000px;
-        /* overflow: hidden; */
         overflow: auto;
         z-index: 10;
         outline: 1px solid rgb(160, 160, 160);
@@ -1533,7 +1449,6 @@ footer .inner1400 {
     }
 
     .sec3 {
-        /* height: 550px; */
         height: 1300px;
     }
 
@@ -1581,8 +1496,6 @@ footer .inner1400 {
     }
 
     .logo {
-        /* width: 101px;
-        height: 56px; */
         width: 90px;
         height: 50px;
         margin: 0 30px 0 0;
@@ -1750,7 +1663,6 @@ footer .inner1400 {
     }
     
     .sec1 {
-        /* height: calc(100vh - 280px); */
         height: 100%;
     }
 
@@ -1770,15 +1682,11 @@ footer .inner1400 {
 
 
     .sec2 .content_box {
-        /* height: 60%; */
         height: 370px;
-        /* height: calc(100vh - 200px); */
-
     }
 
     .sec2 .right {
         width: 365px;
-        /* height: 100%; */
         overflow: auto;
         
     }
