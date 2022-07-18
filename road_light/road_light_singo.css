@@ -1677,7 +1677,11 @@ footer .inner1400 {
     }
 
     .sec2 {
-        height: calc(100vh - 200px);
+        height: 700px;
+    }
+
+    .sec2 .inner1400 {
+        height: 100%;
     }
 
 
@@ -1696,7 +1700,7 @@ footer .inner1400 {
         right: -3%;
         background: #fff;
         outline: none;
-        height: 103%;
+        height: 165%;
     }
 
     .sec2 .info_write {
