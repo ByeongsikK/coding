@@ -1676,19 +1676,22 @@ footer .inner1400 {
         font-size: 20px;
     }
 
+    /* -----추가한거 */
     .sec2 {
         height: 700px;
     }
 
+    /* -------추가한거
     .sec2 .inner1400 {
         height: 100%;
-    }
+    } */
 
 
     .sec2 .content_box {
         height: 370px;
     }
 
+    /* ------추가한거 */
     #map {
         height: 370px;
     }
@@ -1696,6 +1699,7 @@ footer .inner1400 {
     .sec2 .right {
         width: 365px;
         overflow: auto;
+        /* 수정한거 */
         height: 165%;
     }
 
@@ -1704,6 +1708,7 @@ footer .inner1400 {
         right: -3%;
         background: #fff;
         outline: none;
+        /* 수정한거 */
         height: 165%;
     }
 
