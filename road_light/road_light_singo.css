@@ -1689,6 +1689,10 @@ footer .inner1400 {
         height: 370px;
     }
 
+    #map {
+        height: 370px;
+    }
+
     .sec2 .right {
         width: 365px;
         overflow: auto;
