@@ -19,31 +19,75 @@
 
 section {
     height: calc(100vh - 120px);
-    display: flex; flex-direction:column; justify-content: center;
+    display: flex; 
+    flex-direction:column; 
+    justify-content: center;
 }
 
 
 
 /* 헤더 */
-header { display: flex; background: #000; justify-content: space-between; padding: 12px 60px; position: sticky; top:0; z-index: 10; height: 120px; }
+header { 
+    display: flex; 
+    background: #000; 
+    justify-content: space-between; 
+    padding: 12px 60px; 
+    position: sticky; 
+    top:0; 
+    z-index: 10; 
+    height: 120px; 
+}
 
-/* header 의 height 140px 에서 120px로 수정 */
+header .logo { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
 
-header .logo { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+header .logo span:first-child { 
+    font-size: 2.5rem; 
+    color: #eee; 
+    font-weight: 900; 
+}
 
-header .logo span:first-child { font-size: 2.5rem; color: #eee; font-weight: 900; }
+header .logo span:last-child { 
+    font-size: 0.8rem; 
+    color: #eee; 
+}
 
-header .logo span:last-child { font-size: 0.8rem; color: #eee; }
+header > ul { 
+    display: flex; 
+    align-self: center; 
+}
 
-header > ul { display: flex; align-self: center; }
+header .top.nav { 
+    display: flex; 
+}
 
-header .top.nav { display: flex; }
+header .menu { 
+    display: none; 
+    text-indent: -500px; 
+    background: url(/images/supermix/menu.svg) 50% 50% no-repeat; 
+    overflow: hidden; 
+    width: 60px; 
+    height: 60px; 
+    background-size: cover; 
+}
 
-header .menu { display: none; text-indent: -500px; background: url(/images/supermix/menu.svg) 50% 50% no-repeat; overflow: hidden; width: 60px; height: 60px; background-size: cover; }
+header .top.nav a { 
+    font-size: 1.3rem; 
+    color: #eee; 
+    padding: 6px 12px; 
+    margin: 0 6px; 
+    display: inline-block; 
+    margin: 0 12px; 
+}
 
-header .top.nav a { font-size: 1.3rem; color: #eee; padding: 6px 12px; margin: 0 6px; display: inline-block; margin: 0 12px; }
-
-header .top.nav li:hover a { color: #abd; border-color: #abd; }
+header .top.nav li:hover a { 
+    color: #abd; 
+    border-color: #abd; 
+}
 /* 헤더 */
 
 
@@ -57,33 +101,66 @@ header .top.nav li:hover a { color: #abd; border-color: #abd; }
     /* background-size: cover;  */
 }
 
-/* height값 부여 하고 861px 에서 900px 로 변경 */
-
 /* 섹션 1 */
 
 
-
-
 /*sec2*/
-.sec2 {
+/* .sec2 {
     display: flex;
-}
+} */
 
 .sec2 .inner1200 {
     width: 1200px;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .sec2_title {
     font-size: 50px;
     font-weight: bold;
-    margin: 40px 0 40px 0;
+    margin: 0 0 40px 0;
+}
+
+.content {
+    display: flex;
 }
 
 .profile_img {
     width: 420px;
     height: 360px;
     background: url(/supermix/khj.png) no-repeat;
+}
+
+.portfolio.box {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio.box li a {
+    width: 400px;
+    height: 340px;
+    font-size: 20px;
+    color: #eeeeee;
+}
+
+.portfolio.box li a:hover {
+    width: 400px;
+    height: 340px;
+    /* color: #838383; */
+    opacity: 0.7;
+}
+
+.portfolio_img1 {
+    width: 400px;
+    height: 300px;
+    background: url(./포트폴리오이미지/세종시도로조명관리시스템img.png) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.portfolio.box span:hover {
+    font-size: 20px;
+    color: #838383;
 }
 
 .right_n1 {
@@ -114,7 +191,12 @@ header .top.nav li:hover a { color: #abd; border-color: #abd; }
 
 .port .inner1200 {width: 1200px;}
 
-.port { background: #333; display: flex; flex-direction:column; justify-content: center;}
+.port { 
+    background: #333; 
+    display: flex; 
+    flex-direction:column; 
+    justify-content: center;
+}
 
 .port h2 { color: #eee; font-size: 3rem; margin-bottom: 24px; }
 
@@ -150,469 +232,6 @@ header .top.nav li:hover a { color: #abd; border-color: #abd; }
 
 
 
-
-
-
-/*sec4*/
-.sec4 {
-    /* height: 1000px; */
-    background: #EDEDED;
-}
-
-.sec4 .inner1200 {
-    width: 1200px;
-}
-
-.sec4_title {
-    font-size: 50px;
-    font-weight: bold;
-    padding: 40px 0 0 0;
-    margin: 0 0 24px 0;
-}
-
-.sec4 ul {
-    display: flex;
-    width: 721px;
-    margin: 0 0 20px 0;
-}
-
-.sec4 ul li {
-    list-style: none;
-    position: relative;
-    margin: 0 20px 0 0;
-}
-
-.sec4 ul li::after {
-    content: "";
-    position: absolute;
-    top: 10px;
-    right: -10px;
-    width: 1px;
-    height: 25px;
-    background: #000;
-}
-
-.sec4 ul li:last-child::after {
-    display: none;
-}
-
-.sec4 ul li a {
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: bold;
-    color: #000;
-}
-
-/* ul li a font-size 30px 에서 25px 로 변경 */
-
-.sec4_content_box {
-    display: flex;
-    align-items: center;
-}
-
-.left_bt {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-}
-
-.right_bt {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-}
-
-.control_room {
-    width: 870px;
-    height: 670px;
-}
-
-.control_page1 {
-    width: 870px;
-    height: 670px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.control_page1 .img_1 {
-    width: 400px;
-    height: 300px;
-    background: url(/supermix/controlroom/1-1.jpg) no-repeat;
-    background-size: cover;
-}
-
-.control_page1 .img_2 {
-    width: 400px;
-    height: 300px;
-    background: url(/supermix/controlroom/1-2.jpg) no-repeat;
-    background-size: cover;
-}
-
-.control_page1 .img_3 {
-    width: 400px;
-    height: 300px;
-    background: url(/supermix/controlroom/1-3.jpg) no-repeat;
-    background-size: cover;
-}
-
-.control_page1 .img_4 {
-    width: 400px;
-    height: 300px;
-    background: url(/supermix/controlroom/1-4.jpg) no-repeat;
-    background-size: cover;
-}
-
-.control_page2 .img_5 {
-    width: 400px;
-    height: 300px;
-    background: url(/supermix/controlroom/1-5.jpg) no-repeat;
-    background-size: cover;
-}
-
-.control_page2 .img_6 {
-    width: 400px;
-    height: 300px;
-    background: url() no-repeat;
-    background-size: cover;
-}
-
-.control_page2 .img_7 {
-    width: 400px;
-    height: 300px;
-    background: url() no-repeat;
-    background-size: cover;
-}
-
-.control_page2 .img_8 {
-    width: 400px;
-    height: 300px;
-    background: url() no-repeat;
-    background-size: cover;
-}
-
-.control_page2 {
-    width: 870px;
-    height: 670px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.recording_room {
-    width: 870px;
-    height: 670px;
-}
-
-.recording_page1 {
-    width: 870px;
-    height: 670px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.recording_page1 .img_1 {
-    width: 400px;
-    height: 300px;
-    background: url(/supermix/recoding_room/1-1.jpg) no-repeat;
-    background-size: cover;
-}
-
-.recording_page1 .img_2 {
-    width: 400px;
-    height: 300px;
-    background: url(/supermix/recoding_room/1-2.jpg) no-repeat;
-    background-size: cover;
-}
-
-.recording_page1 .img_3 {
-    width: 400px;
-    height: 300px;
-    background: url(/supermix/recoding_room/1-3.jpg) no-repeat;
-    background-size: cover;
-}
-
-.recording_page1 .img_4 {
-    width: 400px;
-    height: 300px;
-    background: url(/supermix/recoding_room/1-4.jpg) no-repeat;
-    background-size: cover;
-}
-
-.equipment_list {
-    width: 870px;
-    height: 670px;
-    display: flex;
-}
-
-.sec4 h2 {
-    font-size: 30px;
-    margin: 0;
-}
-
-
-.equipment_list p {
-    font-size: 10px;
-    margin: 10px 0;
-}
-
-.hardware_page1 {
-    width: 870px;
-    height: 670px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.list_box {
-    width: 870px;
-    height: 670px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-.list_1 {
-    width: 400px;
-    height: auto;
-}
-
-.list_2 {
-    width: 400px;
-    height: auto;
-}
-
-.list_3 {
-    width: 400px;
-    height: auto;
-}
-
-.list_4 {
-    width: 400px;
-    height: auto;
-}
-
-.hardware_page2 {
-    width: 870px;
-    height: 670px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.list_box2 {
-    width: 870px;
-    height: 670px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-.list_5 {
-    width: 300px;
-    height: auto;
-}
-
-.list_6 {
-    width: 300px;
-    height: auto;
-}
-
-.list_7 {
-    width: 300px;
-    height: auto;
-}
-
-.list_8 {
-    width: 300px;
-    height: auto;
-}
-
-.list_box3 {
-    width: 870px;
-    height: 670px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-.list_9 {
-    width: 300px;
-    height: auto;
-}
-
-.list_10 {
-    width: 300px;
-    height: auto;
-}
-
-.list_11 {
-    width: 300px;
-    height: auto;
-}
-
-.list_12 {
-    width: 300px;
-    height: auto;
-}
-
-
-
-
-
-/*sec5*/
-.sec5 {
-    /* height: 1000px; */
-    background: #333333;
-}
-
-.sec5 .inner1200 {
-    width: 1200px;
-}
-
-.sec5_title {
-    font-size: 50px;
-    font-weight: bold;
-    color: #fff;
-    padding: 40px 0 0 0;
-}
-
-.sec5 p {
-    font-size: 18px;
-    color: #eeeeee;
-}
-
-/* p font-size 20px 에서 18px 로 변경 */
-
-.price_box {
-    display: flex;
-    /* margin: 120px 0 0 0; */
-}
-
-.sec5 .left_n2 {
-    width: 560px;
-    /* height: 679px; */
-}
-
-.sec5 .right_n2 {
-    width: 560px;
-    height: 679px;
-}
-
-.price_img1 {
-    width: 150px;
-    height: 150px;
-    margin: 0;
-    background: url(/supermix/priceRight/studio\ 1h.png) no-repeat;
-    mix-blend-mode: luminosity;
-}
-
-.studio_1h {
-    width: 560px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px 0;
-}
-
-.price_img2 { 
-    width: 150px;
-    height: 150px;
-    margin: 0;
-    background: url(/supermix/priceRight/studio\ 1pro.png) no-repeat;
-    mix-blend-mode: luminosity;
-}
-
-.studio_1pro {
-    width: 560px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px 0;
-}
-
-.price_img3 { 
-    width: 150px;
-    height: 150px;
-    margin: 0;
-    background: url(/supermix/priceRight/studio\ rental\ 1h.png) no-repeat;
-    mix-blend-mode: luminosity;
-}
-
-.studio_rantal {
-    width: 560px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px 0;
-}
-
-.price_img4 { 
-    width: 150px;
-    height: 150px;
-    margin: 0;
-    background: url(/supermix/priceRight/MR+mixing.png) no-repeat;
-    mix-blend-mode: luminosity;
-}
-
-.MR_mixing {
-    width: 560px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px 0;
-}
-
-.price_img5 { 
-    width: 150px;
-    height: 150px;
-    margin: 0;
-    background: url(/supermix/priceRight/MR+all.png) no-repeat;
-    mix-blend-mode: luminosity;
-}
-
-.multitrack {
-    width: 560px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px 0;
-}
-
-.price_img6 { 
-    width: 150px;
-    height: 150px;
-    margin: 0;
-    background: url(/supermix/priceRight/mutitrack\ mixing.png) no-repeat;
-    mix-blend-mode: luminosity;
-}
-
-.MR_all {
-    width: 560px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px 0;
-}
-
-.text_box {
-    height: 168px;
-    margin: 0;
-}
-
-
-
-
-
 /*sec6*/
 
 .sec6 .inner1200 {
@@ -635,7 +254,7 @@ header .top.nav li:hover a { color: #abd; border-color: #abd; }
     margin: 30px 0;
 }
 
-.sns a {
+/* .sns a {
     text-decoration: none;
     color: #000;
 }
@@ -652,13 +271,13 @@ header .top.nav li:hover a { color: #abd; border-color: #abd; }
 .naver_booking {
     width: 60px;
     height: 68px;
-    background: url(/supermix/sns/naver.svg) no-repeat;
+    background: url(./sns/naver.svg) no-repeat;
 }
 
 .instargram {
     width: 60px;
     height: 60px;
-    background: url(/supermix/sns/intargram.svg) no-repeat ;
+    background: url(./) no-repeat ;
     margin-top: 5px;
 }
 
@@ -674,7 +293,7 @@ header .top.nav li:hover a { color: #abd; border-color: #abd; }
     height: 60px;
     background: url(/supermix/sns/kakaotalk.svg) no-repeat ;
     margin-top: 5px;
-}
+} */
 
 .contect_box {
     display: flex;
@@ -701,7 +320,14 @@ header .top.nav li:hover a { color: #abd; border-color: #abd; }
 
 /* 푸터 */
 
-footer { background: #000; height: 180px; display: flex; align-items: center; padding-left: 30px; }
+footer { 
+    background: #000; 
+    height: 100px; 
+    display: flex; 
+    align-items: center; 
+    padding-left: 30px; }
 
-footer p { color: #eee; margin: 0px; }
+footer p { 
+    color: #eee; 
+    margin: 0px; }
 
