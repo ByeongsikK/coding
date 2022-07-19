@@ -147,7 +147,6 @@ header {
     font-size: 50px;
     color: #fff;
     padding: 200px 0 50px 0;
-    /* text-shadow: 2px 2px 2px #494949; */
     text-shadow: 1px 1px 1px #949494;
 }
 
@@ -155,14 +154,12 @@ header {
     font-size: 35px;
     color: #fff;
     padding: 0 0 25px 0;
-    /* text-shadow: 3px 3px 10px #000000; */
     text-shadow: 1px 1px 1px #949494;
 }
 
 .main h3 {
     font-size: 18px;
     color: #fff;
-    /* text-shadow: 3px 3px 10px #000000; */
     text-shadow: 1px 1px 1px #949494;
 }
 
@@ -867,7 +864,7 @@ li {
     margin: 5px 15px;
     font-size: 12px;
 }
-/* 당일 날짜 출력 할 수 있게 추후 스크립트 추가 */
+
 
 .date {
     border: 1px solid #D2D2D2;
@@ -1322,7 +1319,6 @@ footer .inner1400 {
     }
 
     .sec2 {
-        /* height: 900px; */
         height: calc(100vh - 180px);
     }
 
@@ -1676,22 +1672,14 @@ footer .inner1400 {
         font-size: 20px;
     }
 
-    /* -----추가한거 */
     .sec2 {
         height: 700px;
     }
-
-    /* -------추가한거
-    .sec2 .inner1400 {
-        height: 100%;
-    } */
-
 
     .sec2 .content_box {
         height: 370px;
     }
 
-    /* ------추가한거 */
     #map {
         height: 370px;
     }
@@ -1699,7 +1687,6 @@ footer .inner1400 {
     .sec2 .right {
         width: 365px;
         overflow: auto;
-        /* 수정한거 */
         height: 165%;
     }
 
@@ -1708,7 +1695,6 @@ footer .inner1400 {
         right: -3%;
         background: #fff;
         outline: none;
-        /* 수정한거 */
         height: 165%;
     }
 
