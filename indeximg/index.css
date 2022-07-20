@@ -325,9 +325,11 @@ footer {
     height: 100px; 
     display: flex; 
     align-items: center; 
-    padding-left: 30px; }
+    padding-left: 30px; 
+}
 
 footer p { 
     color: #eee; 
-    margin: 0px; }
+    margin: 0 0 0 100px; 
+}
 
